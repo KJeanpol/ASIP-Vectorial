@@ -1,0 +1,8 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# vsim -gui -l msim_transcript work.vectorMemoryTB -L altera_mf_ver 
+# Start time: 21:57:25 on Jul 15,2020
+# ** Error (suppressible): (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 21:57:25 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

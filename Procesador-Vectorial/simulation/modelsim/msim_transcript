@@ -1,0 +1,501 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do VectEqualizer_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramHistogram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:46 on Jul 15,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramHistogram.v 
+# -- Compiling module ramHistogram
+# 
+# Top level modules:
+# 	ramHistogram
+# End time: 22:58:46 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:46 on Jul 15,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage1.v 
+# -- Compiling module ramImage1
+# 
+# Top level modules:
+# 	ramImage1
+# End time: 22:58:46 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:46 on Jul 15,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage2.v 
+# -- Compiling module ramImage2
+# 
+# Top level modules:
+# 	ramImage2
+# End time: 22:58:46 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:46 on Jul 15,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage3.v 
+# -- Compiling module ramImage3
+# 
+# Top level modules:
+# 	ramImage3
+# End time: 22:58:46 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:46 on Jul 15,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage4.v 
+# -- Compiling module ramImage4
+# 
+# Top level modules:
+# 	ramImage4
+# End time: 22:58:46 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:46 on Jul 15,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage5.v 
+# -- Compiling module ramImage5
+# 
+# Top level modules:
+# 	ramImage5
+# End time: 22:58:46 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Clk {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Clk/clkDivide.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:46 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Clk" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Clk/clkDivide.sv 
+# -- Compiling module clkDivide
+# 
+# Top level modules:
+# 	clkDivide
+# End time: 22:58:46 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/preImem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:46 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/preImem.sv 
+# -- Compiling module preImem
+# 
+# Top level modules:
+# 	preImem
+# End time: 22:58:46 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:46 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv 
+# -- Compiling module filterGPU
+# 
+# Top level modules:
+# 	filterGPU
+# End time: 22:58:47 on Jul 15,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Datapath {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Datapath/DataPath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:47 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Datapath" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Datapath/DataPath.sv 
+# -- Compiling module DataPath
+# 
+# Top level modules:
+# 	DataPath
+# End time: 22:58:47 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/main.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:47 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/main.sv 
+# -- Compiling module main
+# 
+# Top level modules:
+# 	main
+# End time: 22:58:47 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/TestBenchs {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/TestBenchs/main_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:47 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/TestBenchs" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/TestBenchs/main_tb.sv 
+# -- Compiling module main_tb
+# 
+# Top level modules:
+# 	main_tb
+# End time: 22:58:47 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller/vga_contollerTest.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:47 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller/vga_contollerTest.sv 
+# -- Compiling module vga_contollerTest
+# 
+# Top level modules:
+# 	vga_contollerTest
+# End time: 22:58:47 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller/draw.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:47 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller/draw.sv 
+# -- Compiling module draw
+# 
+# Top level modules:
+# 	draw
+# End time: 22:58:47 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:47 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv 
+# -- Compiling module hazard_unit
+# 
+# Top level modules:
+# 	hazard_unit
+# End time: 22:58:47 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/vectorMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:47 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/vectorMemory.sv 
+# -- Compiling module vectorMemory
+# 
+# Top level modules:
+# 	vectorMemory
+# End time: 22:58:47 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/WriteBack.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:47 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/WriteBack.sv 
+# -- Compiling module WriteBack
+# 
+# Top level modules:
+# 	WriteBack
+# End time: 22:58:47 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Fetch.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:47 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Fetch.sv 
+# -- Compiling module Fetch
+# 
+# Top level modules:
+# 	Fetch
+# End time: 22:58:47 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Execute.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:47 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Execute.sv 
+# -- Compiling module Execute
+# 
+# Top level modules:
+# 	Execute
+# End time: 22:58:47 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Decode.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:47 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Decode.sv 
+# -- Compiling module Decode
+# 
+# Top level modules:
+# 	Decode
+# End time: 22:58:47 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/regfileVec.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:48 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/regfileVec.sv 
+# -- Compiling module regfileVec
+# 
+# Top level modules:
+# 	regfileVec
+# End time: 22:58:48 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/n_bit_register.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:48 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/n_bit_register.sv 
+# -- Compiling module n_bit_register
+# 
+# Top level modules:
+# 	n_bit_register
+# End time: 22:58:48 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/n_bit_mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:48 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/n_bit_mux.sv 
+# -- Compiling module n_bit_mux
+# 
+# Top level modules:
+# 	n_bit_mux
+# End time: 22:58:48 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/mux_3to1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:48 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/mux_3to1.sv 
+# -- Compiling module mux_3to1
+# 
+# Top level modules:
+# 	mux_3to1
+# End time: 22:58:48 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/mux_2to1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:48 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/mux_2to1.sv 
+# -- Compiling module mux_2to1
+# 
+# Top level modules:
+# 	mux_2to1
+# End time: 22:58:48 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/extendUnit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:48 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/extendUnit.sv 
+# -- Compiling module extendUnit
+# 
+# Top level modules:
+# 	extendUnit
+# End time: 22:58:48 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/main_decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:48 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/main_decoder.sv 
+# -- Compiling module main_decoder
+# 
+# Top level modules:
+# 	main_decoder
+# End time: 22:58:48 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:48 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 22:58:48 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/control_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:48 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/control_unit.sv 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 22:58:48 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/alu_decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:48 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/alu_decoder.sv 
+# -- Compiling module alu_decoder
+# 
+# Top level modules:
+# 	alu_decoder
+# End time: 22:58:49 on Jul 15,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/writebackBuffer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:49 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/writebackBuffer.sv 
+# -- Compiling module writebackBuffer
+# 
+# Top level modules:
+# 	writebackBuffer
+# End time: 22:58:49 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/registersBuffer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:49 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/registersBuffer.sv 
+# -- Compiling module registersBuffer
+# 
+# Top level modules:
+# 	registersBuffer
+# End time: 22:58:49 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/instructionBuffer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:49 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/instructionBuffer.sv 
+# -- Compiling module instructionBuffer
+# 
+# Top level modules:
+# 	instructionBuffer
+# End time: 22:58:49 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/ALUBuffer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:49 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/ALUBuffer.sv 
+# -- Compiling module ALUBuffer
+# 
+# Top level modules:
+# 	ALUBuffer
+# End time: 22:58:49 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial/aluScalar.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:49 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial/aluScalar.sv 
+# -- Compiling module aluScalar
+# 
+# Top level modules:
+# 	aluScalar
+# End time: 22:58:49 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial/aluMain.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:49 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial/aluMain.sv 
+# -- Compiling module aluMain
+# 
+# Top level modules:
+# 	aluMain
+# End time: 22:58:49 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems {C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:49 on Jul 15,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems" C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 22:58:49 on Jul 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# Paste insertion failed: -gui: Unrecognized option: "-gui" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: -l: Missing signal name or pattern.
+# Paste insertion failed: -L: Missing signal name or pattern.
+vsim -gui -l msim_transcript work.main_tb -L altera_mf_ver
+# vsim -gui -l msim_transcript work.main_tb -L altera_mf_ver 
+# Start time: 22:59:04 on Jul 15,2020
+# Loading sv_std.std
+# Loading work.main_tb
+# Loading work.main
+# Loading work.clkDivide
+# Loading work.draw
+# Loading work.preImem
+# Loading work.imem
+# Loading work.filterGPU
+# Loading work.control_unit
+# Loading work.decoder
+# Loading work.main_decoder
+# Loading work.alu_decoder
+# Loading work.DataPath
+# Loading work.Fetch
+# Loading work.n_bit_register
+# Loading work.instructionBuffer
+# Loading work.Decode
+# Loading work.n_bit_mux
+# Loading work.regfileVec
+# Loading work.extendUnit
+# Loading work.registersBuffer
+# Loading work.Execute
+# Loading work.mux_3to1
+# Loading work.mux_2to1
+# Loading work.aluMain
+# Loading work.aluScalar
+# Loading work.ALUBuffer
+# Loading work.writebackBuffer
+# Loading work.WriteBack
+# Loading work.hazard_unit
+# Loading work.vectorMemory
+# Loading work.ramHistogram
+# Loading altera_mf_ver.altsyncram
+# Loading work.ramImage1
+# Loading work.ramImage2
+# Loading work.ramImage3
+# Loading work.ramImage4
+# Loading work.ramImage5
+# Loading work.vga_contollerTest
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Datapath/DataPath.sv(31): [PCDPC] - Port size (1) does not match connection size (2) for port 'ImmSrcD'. The port definition is at: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Decode.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/FILTERGPU/datapath/decode File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Decode.sv
+# ** Warning: (vsim-3017) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv(26): [TFMPC] - Too few port connections. Expected 16, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/FILTERGPU/hazardunit File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv
+# ** Warning: (vsim-3015) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv(26): [PCDPC] - Port size (8) does not match connection size (4) for port 'RA1E'. The port definition is at: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/FILTERGPU/hazardunit File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv
+# ** Warning: (vsim-3015) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv(26): [PCDPC] - Port size (8) does not match connection size (4) for port 'RA2E'. The port definition is at: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/FILTERGPU/hazardunit File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv
+# ** Warning: (vsim-3015) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv(26): [PCDPC] - Port size (8) does not match connection size (4) for port 'WA3M'. The port definition is at: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/FILTERGPU/hazardunit File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv
+# ** Warning: (vsim-3015) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv(26): [PCDPC] - Port size (8) does not match connection size (4) for port 'WA3W'. The port definition is at: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/FILTERGPU/hazardunit File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv
+# ** Warning: (vsim-3015) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv(26): [PCDPC] - Port size (8) does not match connection size (4) for port 'RA1D'. The port definition is at: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/FILTERGPU/hazardunit File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv
+# ** Warning: (vsim-3015) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv(26): [PCDPC] - Port size (8) does not match connection size (4) for port 'RA2D'. The port definition is at: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/FILTERGPU/hazardunit File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv
+# ** Warning: (vsim-3015) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv(26): [PCDPC] - Port size (8) does not match connection size (4) for port 'WA3E'. The port definition is at: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/FILTERGPU/hazardunit File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv
+# ** Warning: (vsim-3722) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv(26): [TFMPC] - Missing connection for port 'FlushD'.
+# ** Warning: (vsim-3015) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/main.sv(50): [PCDPC] - Port size (8) does not match connection size (160) for port 'inData'. The port definition is at: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/vectorMemory.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/dmem File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/vectorMemory.sv
+# ** Warning: (vsim-3015) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/vectorMemory.sv(265): [PCDPC] - Port size (8) does not match connection size (16) for port 'data_a'. The port definition is at: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage1.v(44).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/dmem/imageMem1 File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage1.v
+# ** Warning: (vsim-3015) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/vectorMemory.sv(266): [PCDPC] - Port size (8) does not match connection size (16) for port 'data_a'. The port definition is at: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage2.v(44).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/dmem/imageMem2 File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage2.v
+# ** Warning: (vsim-3015) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/vectorMemory.sv(267): [PCDPC] - Port size (8) does not match connection size (16) for port 'data_a'. The port definition is at: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage3.v(44).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/dmem/imageMem3 File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage3.v
+# ** Warning: (vsim-3015) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/vectorMemory.sv(268): [PCDPC] - Port size (8) does not match connection size (16) for port 'data_a'. The port definition is at: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage4.v(44).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/dmem/imageMem4 File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage4.v
+# ** Warning: (vsim-3015) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/vectorMemory.sv(269): [PCDPC] - Port size (8) does not match connection size (16) for port 'data_a'. The port definition is at: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage5.v(44).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/dmem/imageMem5 File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage5.v
+# ** Warning: (vsim-3839) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Fetch.sv(9): Variable '/main_tb/dut/FILTERGPU/datapath/fetch/PC', driven via a port connection, is multiply driven. See C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Fetch.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/FILTERGPU/datapath/fetch File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Fetch.sv
+# ** Warning: (vsim-3839) C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv(18): Variable '/main_tb/dut/FILTERGPU/MemtoRegE', driven via a port connection, is multiply driven. See C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv(23).
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/FILTERGPU File: C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv
+add wave -position end sim:/main_tb/*
+add wave -position end sim:/main_tb/dut/*
+add wave -position end sim:/main_tb/dut/FILTERGPU/datapath/decode/registerFile/*
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/simulation/modelsim/wave.do
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 102 of file "C://Users//Pablo//Documents//1-TEC//Arqui-II//VectEqualizer//Procesador-Vectorial//Mems//output.dat". (Current address [101], address range [0:100])    : C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/imem.sv(12)
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/dut/imem/imem
+run
+# ** Note: $stop    : C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/TestBenchs/main_tb.sv(31)
+#    Time: 16 ns  Iteration: 0  Instance: /main_tb
+# Break in Module main_tb at C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/TestBenchs/main_tb.sv line 31
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+write list -window .main_pane.list C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/PyhtonScripts/list.lst
+write list -window .main_pane.list C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/PyhtonScripts/list.lst
+write list -window .main_pane.list C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/PyhtonScripts/list.lst
+# End time: 23:19:49 on Jul 15,2020, Elapsed time: 0:20:45
+# Errors: 0, Warnings: 19

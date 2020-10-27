@@ -1,0 +1,941 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/simulation/modelsim
+valu_decoder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1594875529
+!i10b 1
+!s100 m74Ma^f5KJg05V<:da5;[3
+Ih@<KKaAhOgYJ`Kgb?n?7^1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 alu_decoder_sv_unit
+S1
+R0
+Z4 w1594865313
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/alu_decoder.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/alu_decoder.sv
+L0 1
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1594875528.000000
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/alu_decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/alu_decoder.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit
+Z9 tCvgOpt 0
+vALUBuffer
+R1
+R2
+!i10b 1
+!s100 LKX64O8732a>>dbWde?HX3
+Idd0?C8C89i]z_`;:j5`1Y3
+R3
+!s105 ALUBuffer_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/ALUBuffer.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/ALUBuffer.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z10 !s108 1594875529.000000
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/ALUBuffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/ALUBuffer.sv|
+!i113 1
+R7
+Z11 !s92 -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers
+R9
+n@a@l@u@buffer
+valuMain
+R1
+R2
+!i10b 1
+!s100 LLeIC>MWd4QYNNH_J?P`J2
+I3`Tdd3?JeeM0FD[OR>;X;0
+R3
+!s105 aluMain_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial/aluMain.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial/aluMain.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial/aluMain.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial/aluMain.sv|
+!i113 1
+R7
+Z12 !s92 -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial
+R9
+nalu@main
+valuScalar
+R1
+R2
+!i10b 1
+!s100 l^7:mGPaQ5[H`VCU<QHBP0
+IS:<Xe0D]H=`P@4@Sb;ETY3
+R3
+!s105 aluScalar_sv_unit
+S1
+R0
+Z13 w1594871841
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial/aluScalar.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial/aluScalar.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial/aluScalar.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/ALU-Vectorial/aluScalar.sv|
+!i113 1
+R7
+R12
+R9
+nalu@scalar
+vclkDivide
+R1
+Z14 !s110 1594875526
+!i10b 1
+!s100 ZD6WKHNIkZ=RhYkOaooY22
+I=R4cCijZ6I:UUBKWFl;[g1
+R3
+!s105 clkDivide_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Clk/clkDivide.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Clk/clkDivide.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z15 !s108 1594875526.000000
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Clk/clkDivide.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Clk|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Clk/clkDivide.sv|
+!i113 1
+R7
+!s92 -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Clk
+R9
+nclk@divide
+vcontrol_unit
+R1
+Z16 !s110 1594875528
+!i10b 1
+!s100 mYSj<iZk?0bFJmJX@ZXDl1
+IDaTTcZ`8L[R4MZCg^?OkF2
+R3
+!s105 control_unit_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/control_unit.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/control_unit.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/control_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/control_unit.sv|
+!i113 1
+R7
+R8
+R9
+vDataPath
+R1
+Z17 !s110 1594875527
+!i10b 1
+!s100 cN?UE1TzdEGWNK<@_4FE53
+Im[O]Fdi@N0B=Ta2CIl<6N3
+R3
+!s105 DataPath_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Datapath/DataPath.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Datapath/DataPath.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z18 !s108 1594875527.000000
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Datapath/DataPath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Datapath|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Datapath/DataPath.sv|
+!i113 1
+R7
+!s92 -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Datapath
+R9
+n@data@path
+vDecode
+R1
+R17
+!i10b 1
+!s100 ?70fYTM<LK<>IB5Rd2dU91
+IQdA9Bz5gFQHYnAZ;I3Q510
+R3
+!s105 Decode_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Decode.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Decode.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Decode.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Decode.sv|
+!i113 1
+R7
+Z19 !s92 -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps
+R9
+n@decode
+vdecoder
+R1
+R16
+!i10b 1
+!s100 6IjMeD=;PP3gM^L2LM^a31
+IGP?=TVDkdT^aP=EijShTD1
+R3
+!s105 decoder_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/decoder.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/decoder.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/decoder.sv|
+!i113 1
+R7
+R8
+R9
+vdraw
+R1
+R17
+!i10b 1
+!s100 >zjWKz^;<S@UBZzfVo<I90
+IkUiJ?<oX`lbI1C;=Z]kH53
+R3
+!s105 draw_sv_unit
+S1
+R0
+Z20 w1594865314
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller/draw.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller/draw.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller/draw.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller/draw.sv|
+!i113 1
+R7
+Z21 !s92 -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller
+R9
+vExecute
+R1
+R17
+!i10b 1
+!s100 X0=^9NC_jC_n8O^JhJ0A_0
+IZNg<5?dMQSO7oiWiAYaN`1
+R3
+!s105 Execute_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Execute.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Execute.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Execute.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Execute.sv|
+!i113 1
+R7
+R19
+R9
+n@execute
+vextendUnit
+R1
+R16
+!i10b 1
+!s100 oH=53JnAK]NLXX4?k6KYK2
+IJ;Qn9Ed?gWMD[`Qh781WO1
+R3
+!s105 extendUnit_sv_unit
+S1
+R0
+R13
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/extendUnit.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/extendUnit.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/extendUnit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/extendUnit.sv|
+!i113 1
+R7
+Z22 !s92 -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components
+R9
+nextend@unit
+vFetch
+R1
+R17
+!i10b 1
+!s100 Feh@K`:e7zB__ChbO702^0
+IaS`eL7V_A_B=Fj8d@OXHA3
+R3
+!s105 Fetch_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Fetch.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Fetch.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Fetch.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/Fetch.sv|
+!i113 1
+R7
+R19
+R9
+n@fetch
+vfilterGPU
+R1
+R17
+!i10b 1
+!s100 MWa<WmNU1Y0AQ>4lO1Ze_2
+Ia`[WW0P;BgiSZoDgOe^OE3
+R3
+!s105 filterGPU_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter/filterGPU.sv|
+!i113 1
+R7
+!s92 -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Filter
+R9
+nfilter@g@p@u
+vhazard_unit
+R1
+R17
+!i10b 1
+!s100 [ZzB??OT1ZYiDn:PChnL03
+IlODM?N;7ADT0@:hR4;zh23
+R3
+!s105 hazard_unit_sv_unit
+S1
+R0
+R20
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline/hazard_unit.sv|
+!i113 1
+R7
+!s92 -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Pipeline
+R9
+vimem
+R1
+R2
+!i10b 1
+!s100 Zc1iR3K8eUmeTX[7<6Pc21
+I;dEb0ij`]i3i@5MnoHj0d1
+R3
+!s105 imem_sv_unit
+S1
+R0
+w1594871911
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/imem.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/imem.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/imem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/imem.sv|
+!i113 1
+R7
+Z23 !s92 -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems
+R9
+vinstructionBuffer
+R1
+R2
+!i10b 1
+!s100 ngZ0AgY;<YL>D@0iilbG41
+I`KXi;1SQ6k^NP6E<VCMAg0
+R3
+!s105 instructionBuffer_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/instructionBuffer.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/instructionBuffer.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/instructionBuffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/instructionBuffer.sv|
+!i113 1
+R7
+R11
+R9
+ninstruction@buffer
+vmain
+R1
+R17
+!i10b 1
+!s100 FcRYblczANIGg>2Ml0zGc2
+IiJZ4Ie8K:^kB>a71GDHWE3
+R3
+!s105 main_sv_unit
+S1
+R0
+w1594869576
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/main.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/main.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/main.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/main.sv|
+!i113 1
+R7
+!s92 -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial
+R9
+vmain_decoder
+R1
+R16
+!i10b 1
+!s100 Kfm75e39k5<e_8[UbOJCF0
+IzMG^PfSk77_d]jXJ0]F7>3
+R3
+!s105 main_decoder_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/main_decoder.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/main_decoder.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/main_decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Control-Unit/main_decoder.sv|
+!i113 1
+R7
+R8
+R9
+vmain_tb
+R1
+R17
+!i10b 1
+!s100 dmGAd?_MoTAKSiFMhRcUf1
+IiMg?lF;:>mUI__F>anBiR2
+R3
+!s105 main_tb_sv_unit
+S1
+R0
+Z24 w1594868810
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/TestBenchs/main_tb.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/TestBenchs/main_tb.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/TestBenchs/main_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/TestBenchs|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/TestBenchs/main_tb.sv|
+!i113 1
+R7
+!s92 -sv -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/TestBenchs
+R9
+vmux_2to1
+R1
+R16
+!i10b 1
+!s100 coa4DL>FKXGlOnAN0Q0Ql0
+IXLPdNQAL?]XSBW^>BKZR^2
+R3
+!s105 mux_2to1_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/mux_2to1.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/mux_2to1.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/mux_2to1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/mux_2to1.sv|
+!i113 1
+R7
+R22
+R9
+vmux_3to1
+R1
+R16
+!i10b 1
+!s100 <5;TfW93cTU<Eoo2<GBP21
+IW1LM_X`Zb=JQ1QfBOz;]31
+R3
+!s105 mux_3to1_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/mux_3to1.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/mux_3to1.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/mux_3to1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/mux_3to1.sv|
+!i113 1
+R7
+R22
+R9
+vn_bit_mux
+R1
+R16
+!i10b 1
+!s100 ORN]=BYiIb3>70DPn?[F53
+Idz`KFhkPoW:>JaUhA@TN:1
+R3
+!s105 n_bit_mux_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/n_bit_mux.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/n_bit_mux.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/n_bit_mux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/n_bit_mux.sv|
+!i113 1
+R7
+R22
+R9
+vn_bit_register
+R1
+R16
+!i10b 1
+!s100 n>aeTGWnHomkLL3f2IEGi2
+I^m6;]l12_of@Dl_iln=2N3
+R3
+!s105 n_bit_register_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/n_bit_register.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/n_bit_register.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/n_bit_register.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/n_bit_register.sv|
+!i113 1
+R7
+R22
+R9
+vpreImem
+R1
+R14
+!i10b 1
+!s100 YM=_Ebbk>0Q<k:L;;lDdh3
+IeC`0OBh]NJXSj@idC[^852
+R3
+!s105 preImem_sv_unit
+S1
+R0
+R24
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/preImem.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/preImem.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/preImem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/preImem.sv|
+!i113 1
+R7
+R23
+R9
+npre@imem
+vramHistogram
+R14
+!i10b 1
+!s100 TN@8WUWSF^b7f5i_cgE^60
+IkNG[I>la?ZHRUE]`_Qn]e3
+R3
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramHistogram.v
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramHistogram.v
+Z25 L0 39
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramHistogram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramHistogram.v|
+!i113 1
+Z26 o-vlog01compat -work work
+Z27 !s92 -vlog01compat -work work +incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems
+R9
+nram@histogram
+vramImage1
+R14
+!i10b 1
+!s100 h?3dCBVF]XKSBe1iZzC>_2
+IC9=fM66_KHc0:JG_f@MoQ0
+R3
+R0
+w1594870111
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage1.v
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage1.v
+R25
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage1.v|
+!i113 1
+R26
+R27
+R9
+nram@image1
+vramImage2
+R14
+!i10b 1
+!s100 iSzeLSVUfaCJd5mnBP]bg2
+IMKaZ2W?4f2M=knb]EN:No2
+R3
+R0
+w1594870153
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage2.v
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage2.v
+R25
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage2.v|
+!i113 1
+R26
+R27
+R9
+nram@image2
+vramImage3
+R14
+!i10b 1
+!s100 6_V9?1Tn=AlVHUNg89BoV2
+IaSkC8ah?ed7UVa=P]koe<1
+R3
+R0
+w1594870187
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage3.v
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage3.v
+R25
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage3.v|
+!i113 1
+R26
+R27
+R9
+nram@image3
+vramImage4
+R14
+!i10b 1
+!s100 RPaoji2?HiBEDb`z]QIZ80
+Ic7l>H<08UB6dbllR3Y[I>2
+R3
+R0
+w1594870229
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage4.v
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage4.v
+R25
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage4.v|
+!i113 1
+R26
+R27
+R9
+nram@image4
+vramImage5
+R14
+!i10b 1
+!s100 7B>?jMzFbaaZ]jLd?XWCG0
+IUdb4ZDSzKIU?3;Y^NIg:E1
+R3
+R0
+w1594870265
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage5.v
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage5.v
+R25
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/ramImage5.v|
+!i113 1
+R26
+R27
+R9
+nram@image5
+vregfileVec
+R1
+R16
+!i10b 1
+!s100 `Nj=JjG]LVXz3AIHb^UO]0
+IK1bMP1N^i_n?B90i7k4KF3
+R3
+!s105 regfileVec_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/regfileVec.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/regfileVec.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/regfileVec.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Components/regfileVec.sv|
+!i113 1
+R7
+R22
+R9
+nregfile@vec
+vregistersBuffer
+R1
+R2
+!i10b 1
+!s100 _RWFXGJ<41l?:XB5CZHmU0
+IeOz6_@QVmGP_hPQNoAiNT0
+R3
+!s105 registersBuffer_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/registersBuffer.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/registersBuffer.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/registersBuffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/registersBuffer.sv|
+!i113 1
+R7
+R11
+R9
+nregisters@buffer
+vvectorMemory
+R1
+R17
+!i10b 1
+!s100 ^`Q_Kl;`;:hebmQ;?5KT<2
+I@=[jLhY`Nkb1DbYJ21z]n2
+R3
+!s105 vectorMemory_sv_unit
+S1
+R0
+w1594871492
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/vectorMemory.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/vectorMemory.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/vectorMemory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Mems/vectorMemory.sv|
+!i113 1
+R7
+R23
+R9
+nvector@memory
+vvga_contollerTest
+R1
+R17
+!i10b 1
+!s100 AgbMk070U23Pmc`C@KniP2
+IQHmdk0QLKTUjgO5bUGJIL3
+R3
+!s105 vga_contollerTest_sv_unit
+S1
+R0
+R20
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller/vga_contollerTest.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller/vga_contollerTest.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller/vga_contollerTest.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/VGA-Controller/vga_contollerTest.sv|
+!i113 1
+R7
+R21
+R9
+nvga_contoller@test
+vWriteBack
+R1
+R17
+!i10b 1
+!s100 GKD[oAA;jRaKY3a`6cF3L0
+IeTEV`dl>fnihLCz3`dG=02
+R3
+!s105 WriteBack_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/WriteBack.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/WriteBack.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/WriteBack.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/CPU-Steps/WriteBack.sv|
+!i113 1
+R7
+R19
+R9
+n@write@back
+vwritebackBuffer
+R1
+R2
+!i10b 1
+!s100 kUaQYE[3bJ]Q_g8KB;KH[1
+I[TlX8TgB7k1mLGLgZYQgn2
+R3
+!s105 writebackBuffer_sv_unit
+S1
+R0
+R4
+8C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/writebackBuffer.sv
+FC:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/writebackBuffer.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/writebackBuffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers|C:/Users/Pablo/Documents/1-TEC/Arqui-II/VectEqualizer/Procesador-Vectorial/Buffers/writebackBuffer.sv|
+!i113 1
+R7
+R11
+R9
+nwriteback@buffer

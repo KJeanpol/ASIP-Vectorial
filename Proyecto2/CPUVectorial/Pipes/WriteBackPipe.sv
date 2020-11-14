@@ -38,7 +38,7 @@ module WriteBackPipe #(parameter N=20)(
 			end
 		else if(cargar)
 			begin
-			RDM = register1;
+			RDM = RD;
 			ALUOutM = ALUOut;
 			RegWriteM = RegWrite;
 			MemtoRegM = MemtoReg;

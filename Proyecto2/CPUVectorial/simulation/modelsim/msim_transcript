@@ -10,102 +10,196 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II\ SEMESTRE\ 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU {C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv}
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:41:28 on Nov 13,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU" C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv 
-# -- Compiling module ScalarALU
+# Start time: 15:06:51 on Nov 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv 
+# -- Compiling module HazardUnit
 # 
 # Top level modules:
-# 	ScalarALU
-# End time: 14:41:28 on Nov 13,2020, Elapsed time: 0:00:00
+# 	HazardUnit
+# End time: 15:06:51 on Nov 14,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II\ SEMESTRE\ 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU {C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv}
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:41:28 on Nov 13,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU" C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv 
-# -- Compiling module VecALU
-# ** Warning: C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv(2): (vlog-13314) Defaulting port 'A' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv(2): (vlog-13314) Defaulting port 'B' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# Start time: 15:06:51 on Nov 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv 
+# -- Compiling module TestBenchHazardUnit
 # 
 # Top level modules:
-# 	VecALU
-# End time: 14:41:28 on Nov 13,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 2
-# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II\ SEMESTRE\ 2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs {C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:41:28 on Nov 13,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv 
-# -- Compiling module TestbenchALU
-# 
-# Top level modules:
-# 	TestbenchALU
-# End time: 14:41:29 on Nov 13,2020, Elapsed time: 0:00:01
+# 	TestBenchHazardUnit
+# End time: 15:06:52 on Nov 14,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
-vsim work.TestbenchALU
-# vsim work.TestbenchALU 
-# Start time: 14:41:37 on Nov 13,2020
+vsim work.TestBenchHazardUnit
+# vsim work.TestBenchHazardUnit 
+# Start time: 15:07:06 on Nov 14,2020
 # Loading sv_std.std
-# Loading work.TestbenchALU
-# Loading work.VecALU
-# Loading work.ScalarALU
+# Loading work.TestBenchHazardUnit
+# Loading work.HazardUnit
+add wave -position end  sim:/TestBenchHazardUnit/RA1E
+add wave -position end  sim:/TestBenchHazardUnit/RA2E
+add wave -position end  sim:/TestBenchHazardUnit/WA3M
+add wave -position end  sim:/TestBenchHazardUnit/WA3W
+add wave -position end  sim:/TestBenchHazardUnit/RegWriteM
+add wave -position end  sim:/TestBenchHazardUnit/RegWriteW
+add wave -position end  sim:/TestBenchHazardUnit/ForwardAE
+add wave -position end  sim:/TestBenchHazardUnit/ForwardBE
+add wave -position end  sim:/TestBenchHazardUnit/RA1D
+add wave -position end  sim:/TestBenchHazardUnit/RA2D
+add wave -position end  sim:/TestBenchHazardUnit/WA3E
+add wave -position end  sim:/TestBenchHazardUnit/MemtoRegE
+add wave -position end  sim:/TestBenchHazardUnit/StallF
+add wave -position end  sim:/TestBenchHazardUnit/StallD
+add wave -position end  sim:/TestBenchHazardUnit/FlushE
+add wave -position end  sim:/TestBenchHazardUnit/FlushD
 run
-# Simulacion Exitosa en ADD
-#      34845049953973612912939163567234258299781420
-# Simulacion Exitosa en SUB
-#       6969113138895815533066205693308666445299712
-# Simulacion Fallida en MOV
-#      13937968407538898689936478936962795956076644
-# Simulacion Exitosa en MULT
-#     139379723952266889928579564550622765595492356
-# Simulacion Exitosa en DIV
-#      34844921018846612886847240488536647819853825
-# Simulacion Exitosa en ADD
-#      34845049953973612912939163567234258299781420
-# Simulacion Exitosa en SUB
-#       6969113138895815533066205693308666445299712
-add wave -position end  sim:/TestbenchALU/A
-add wave -position end  sim:/TestbenchALU/B
-add wave -position end  sim:/TestbenchALU/Result
 run
-# Simulacion Fallida en MOV
-#      13937968407538898689936478936962795956076644
-# Simulacion Exitosa en MULT
-#     139379723952266889928579564550622765595492356
-# Simulacion Exitosa en DIV
-#      34844921018846612886847240488536647819853825
-# Simulacion Exitosa en ADD
-#      34845049953973612912939163567234258299781420
-# Simulacion Exitosa en SUB
-#       6969113138895815533066205693308666445299712
-# Simulacion Fallida en MOV
-#      13937968407538898689936478936962795956076644
-add wave -position end  sim:/TestbenchALU/Operation
+vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:11:35 on Nov 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv 
+# -- Compiling module TestBenchHazardUnit
+# 
+# Top level modules:
+# 	TestBenchHazardUnit
+# End time: 15:11:35 on Nov 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 run
-# Simulacion Exitosa en MULT
-#     139379723952266889928579564550622765595492356
-# Simulacion Exitosa en DIV
-#      34844921018846612886847240488536647819853825
-# Simulacion Exitosa en ADD
-#      34845049953973612912939163567234258299781420
-# Simulacion Exitosa en SUB
-#       6969113138895815533066205693308666445299712
-# Simulacion Fallida en MOV
-#      13937968407538898689936478936962795956076644
-# Simulacion Exitosa en MULT
-#     139379723952266889928579564550622765595492356
-# Simulacion Exitosa en DIV
-#      34844921018846612886847240488536647819853825
-# Simulacion Exitosa en ADD
-#      34845049953973612912939163567234258299781420
-# Simulacion Exitosa en SUB
-#       6969113138895815533066205693308666445299712
-# Simulacion Fallida en MOV
-#      13937968407538898689936478936962795956076644
-# Simulacion Exitosa en MULT
-#     139379723952266889928579564550622765595492356
-# Simulacion Exitosa en DIV
-#      34844921018846612886847240488536647819853825
-# End time: 14:45:46 on Nov 13,2020, Elapsed time: 0:04:09
+vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:12:55 on Nov 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv 
+# -- Compiling module TestBenchHazardUnit
+# 
+# Top level modules:
+# 	TestBenchHazardUnit
+# End time: 15:12:55 on Nov 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run
+vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:13:17 on Nov 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv 
+# -- Compiling module TestBenchHazardUnit
+# 
+# Top level modules:
+# 	TestBenchHazardUnit
+# End time: 15:13:17 on Nov 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.TestBenchHazardUnit
+add wave -position end  sim:/TestBenchHazardUnit/RA1E
+add wave -position end  sim:/TestBenchHazardUnit/RA2E
+add wave -position end  sim:/TestBenchHazardUnit/WA3M
+add wave -position end  sim:/TestBenchHazardUnit/WA3W
+add wave -position end  sim:/TestBenchHazardUnit/RegWriteM
+add wave -position end  sim:/TestBenchHazardUnit/RegWriteW
+add wave -position end  sim:/TestBenchHazardUnit/ForwardAE
+add wave -position end  sim:/TestBenchHazardUnit/ForwardBE
+add wave -position end  sim:/TestBenchHazardUnit/RA1D
+add wave -position end  sim:/TestBenchHazardUnit/RA2D
+add wave -position end  sim:/TestBenchHazardUnit/WA3E
+add wave -position end  sim:/TestBenchHazardUnit/MemtoRegE
+add wave -position end  sim:/TestBenchHazardUnit/StallF
+add wave -position end  sim:/TestBenchHazardUnit/StallD
+add wave -position end  sim:/TestBenchHazardUnit/FlushE
+add wave -position end  sim:/TestBenchHazardUnit/FlushD
+run
+# Fordward failed
+# Test Failed
+# Fordward succeeded
+# Fordward failed
+# Test Failed
+vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:16:34 on Nov 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv 
+# -- Compiling module TestBenchHazardUnit
+# 
+# Top level modules:
+# 	TestBenchHazardUnit
+# End time: 15:16:34 on Nov 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.TestBenchHazardUnit
+run
+# Caso 1 Exitoso
+# Fordward failed
+# Test Failed
+# Fordward succeeded
+# Fordward failed
+# Test Failed
+restart
+vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:19:26 on Nov 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv 
+# -- Compiling module HazardUnit
+# 
+# Top level modules:
+# 	HazardUnit
+# End time: 15:19:26 on Nov 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.HazardUnit
+run
+# TA RARO
+# Caso 1 Exitoso
+# Fordward failed
+# Test Failed
+# Fordward succeeded
+# Fordward failed
+# Test Failed
+vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:27:50 on Nov 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv 
+# -- Compiling module HazardUnit
+# 
+# Top level modules:
+# 	HazardUnit
+# End time: 15:27:50 on Nov 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:27:50 on Nov 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv 
+# -- Compiling module TestBenchHazardUnit
+# 
+# Top level modules:
+# 	TestBenchHazardUnit
+# End time: 15:27:50 on Nov 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.TestBenchHazardUnit
+# Loading work.HazardUnit
+restart
+run
+# Caso 1 Exitoso
+# Caso 2 falló con éxito xD
+# Caso 3 Exitoso
+# Fordward succeeded
+# Fordward failed
+# Test Failed
+vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:30:09 on Nov 14,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv 
+# -- Compiling module TestBenchHazardUnit
+# 
+# Top level modules:
+# 	TestBenchHazardUnit
+# End time: 15:30:09 on Nov 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.TestBenchHazardUnit
+run
+# Caso 1 Exitoso
+# Caso 2 falló con éxito xD
+# Caso 3 Exitoso
+# Fordward succeeded
+# Fordward failed
+# Fordward succeeded
+# End time: 15:30:37 on Nov 14,2020, Elapsed time: 0:23:31
 # Errors: 0, Warnings: 0

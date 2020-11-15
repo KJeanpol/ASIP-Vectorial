@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA4U23C6
-set_global_assignment -name TOP_LEVEL_ENTITY ControlUnit
+set_global_assignment -name TOP_LEVEL_ENTITY TestBenchHazardUnit
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.0.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:02:36  SEPTEMBER 14, 2015"
 set_global_assignment -name LAST_QUARTUS_VERSION "20.1.0 Lite Edition"
@@ -166,6 +166,8 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name SYSTEMVERILOG_FILE Componentes/n_bit_register.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Datapath/Fetch/Fetch.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Datapath/Execute/ALU/ScalarALU.sv
@@ -189,6 +191,10 @@ set_global_assignment -name SYSTEMVERILOG_FILE "Control-Unit/MainDecoder.sv"
 set_global_assignment -name SYSTEMVERILOG_FILE "Control-Unit/Decoder.sv"
 set_global_assignment -name SYSTEMVERILOG_FILE "Control-Unit/ALUDecoder.sv"
 set_global_assignment -name SYSTEMVERILOG_FILE "Control-Unit/ControlUnit.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE Memoria/InstrMem.sv
+set_global_assignment -name SOURCE_FILE Memoria/memfile.dat
+set_global_assignment -name SYSTEMVERILOG_FILE TestBenchs/TestBenchInstrMem.sv
+set_global_assignment -name SYSTEMVERILOG_FILE TestBenchs/TestBenchHazardUnit.sv
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

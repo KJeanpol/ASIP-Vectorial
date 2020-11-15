@@ -8,85 +8,58 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/simulation/modelsim
-vScalarALU
+Z0 dC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/simulation/modelsim
+vHazardUnit
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1605300088
+!s110 1605389270
 !i10b 1
-!s100 UROU?11[Y^EOHLhoH0CG60
-Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IV@O]X5I<ci;=fdDGC:2J[0
-Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s100 j:2aO1D`AeMohODRJ=9;Q2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IMVA4P9VMm2Bkfj0;e0HU?0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1604711623
-8C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv
-FC:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv
-!i122 0
-L0 1 16
-Z5 OV;L;2020.1;71
+w1605389264
+8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv
+FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv
+!i122 7
+L0 1 55
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1605300088.000000
-!s107 C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU|C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv|
+!s108 1605389270.000000
+!s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv|
 !i113 1
-Z7 o-sv -work work
-Z8 !s92 -sv -work work {+incdir+C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU}
-Z9 tCvgOpt 0
-n@scalar@a@l@u
-vTestbenchALU
+Z5 o-sv -work work
+!s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit
+Z6 tCvgOpt 0
+n@hazard@unit
+vTestBenchHazardUnit
 R1
-!s110 1605300089
+!s110 1605389409
 !i10b 1
-!s100 18ZTf@G@?NoTQ^ZWo6Bi30
-R3
-IT5^iE@F?UkF;l5Q^f[mdD1
-R4
-S1
-R0
-w1605299945
-8C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv
-FC:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv
-!i122 2
-L0 1 99
-R5
-r1
-!s85 0
-31
-R6
-!s107 C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs|C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv|
-!i113 1
-R7
-!s92 -sv -work work {+incdir+C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs}
-R9
-n@testbench@a@l@u
-vVecALU
-R1
+!s100 ?6Y>1o]5h7aclK>]TL`8@1
 R2
-!i10b 1
-!s100 o_]c15f;OM2:^KHhKZ2lS2
+I`4Iz5S0]iQ4KD22V=RFLf0
 R3
-IQl0dk[_XKIT`2NJVc>PQm1
-R4
 S1
 R0
-w1604711955
-8C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv
-FC:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv
-!i122 1
-L0 1 29
-R5
+w1605389401
+8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv
+FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv
+!i122 9
+L0 2 135
+R4
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU|C:/Users/mary1/Documents/II SEMESTRE 2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv|
+!s108 1605389409.000000
+!s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv|
 !i113 1
-R7
-R8
-R9
-n@vec@a@l@u
+R5
+!s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs
+R6
+n@test@bench@hazard@unit

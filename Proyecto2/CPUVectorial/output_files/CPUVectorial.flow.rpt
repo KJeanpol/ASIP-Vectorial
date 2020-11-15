@@ -1,5 +1,5 @@
 Flow report for CPUVectorial
-Fri Nov 13 21:36:24 2020
+Sat Nov 14 15:00:43 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,10 +41,10 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Fri Nov 13 21:36:24 2020       ;
+; Flow Status                 ; Successful - Sat Nov 14 15:00:43 2020       ;
 ; Quartus Prime Version       ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name               ; CPUVectorial                                ;
-; Top-level Entity Name       ; ControlUnit                                 ;
+; Top-level Entity Name       ; TestBenchHazardUnit                         ;
 ; Family                      ; Cyclone V                                   ;
 ; Device                      ; 5CSEMA4U23C6                                ;
 ; Timing Models               ; Final                                       ;
@@ -63,33 +63,35 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/13/2020 21:36:12 ;
+; Start date & time ; 11/14/2020 15:00:32 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPUVectorial        ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                               ;
-+-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
-+-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 145320177876509.160532497103668        ; --            ; --          ; --                                ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_symbol           ;
-; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                      ; --            ; --          ; eda_simulation                    ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --          ; --                                ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --                                ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --                                ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; ControlUnit ; Top                               ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; ControlUnit ; Top                               ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; ControlUnit ; Top                               ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --                                ;
-; TOP_LEVEL_ENTITY                    ; ControlUnit                            ; CPUVectorial  ; --          ; --                                ;
-+-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                       ;
++-------------------------------------+----------------------------------------+---------------+---------------------+-----------------------------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name         ; Section Id                        ;
++-------------------------------------+----------------------------------------+---------------+---------------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID               ; 145320177876509.160538763202896        ; --            ; --                  ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --                  ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --                  ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --                  ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --                  ; eda_board_design_symbol           ;
+; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                      ; --            ; --                  ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --                  ; --                                ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --                  ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --                  ; --                                ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --                  ; --                                ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; TestBenchHazardUnit ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; TestBenchHazardUnit ; Top                               ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; TestBenchHazardUnit ; Top                               ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --                  ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --                  ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --                  ; --                                ;
+; TOP_LEVEL_ENTITY                    ; TestBenchHazardUnit                    ; CPUVectorial  ; --                  ; --                                ;
++-------------------------------------+----------------------------------------+---------------+---------------------+-----------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------+
@@ -97,8 +99,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:13     ; 1.0                     ; 4776 MB             ; 00:00:32                           ;
-; Total                  ; 00:00:13     ; --                      ; --                  ; 00:00:32                           ;
+; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4777 MB             ; 00:00:29                           ;
+; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:29                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

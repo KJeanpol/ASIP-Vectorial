@@ -1,0 +1,30 @@
+module DataMemory #(parameter IMAGE_WIDTH=320,IMAGE_HEIGHT=320,PIX_SIZE=16)
+						(input logic CLK, WE,
+						input logic [PIX_SIZE-1:0] A, WD,
+						output logic [PIX_SIZE-1:0] RD,
+						output logic [PIX_SIZE-1:0] memory[(IMAGE_WIDTH*IMAGE_HEIGHT)-1:0],
+						output logic signal,
+						output logic [31:0] contador);
+	
+	logic [31:0] cond=0;
+
+		
+	initial
+		
+	$readmemh("C:/Users/mary1/Downloads/rsa-cpu-feature_Execute/Procesador/imagen.dat", memory);
+	
+	assign RD = memory[A[PIX_SIZE-1:0]];
+	
+	always_ff @(negedge CLK) 
+	begin
+		if(WE == 1)begin
+			memory[A] <= WD;	
+			cond=cond+1;
+		end
+		if(cond==2)
+			signal<=1'b1;
+		$writememh("C:/Users/mary1/Downloads/rsa-cpu-feature_Execute/Procesador/imagen.dat", memory);
+
+	end
+	assign contador=cond;
+endmodule:DataMemory

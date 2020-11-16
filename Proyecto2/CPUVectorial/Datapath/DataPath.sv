@@ -41,10 +41,12 @@ module DataPath #(parameter N=20)(
     //ExecutePipe
     ExecutePipe executePipe(AluResultE, writeDataE, WA3E, CLK, 1'b0, 1'b1, RegWriteE, MemtoRegE, MemWriteE, ALUResultM, writeDataM, WA3M, RegWriteM, MemtoRegM, MemWriteM); 
 
-	 //WriteBack
-    WriteBack writeback(ALUOutW, ReadDataW, MemtoRegW, ResultW);
+	 //Luego va MEM
 	 
     //WriteBackPipe
     WriteBackPipe #(20) wbpipe(RDM, ALUResultM, CLK, 1'b0, 1'b1, WA3M, RegWriteM, MemtoRegM, ReadDataW, RegWriteW, MemtoRegW, WA3W, ALUOutW);
 
+	 //WriteBack
+    WriteBack writeback(ALUOutW, ReadDataW, MemtoRegW, ResultW);
+	 
 endmodule

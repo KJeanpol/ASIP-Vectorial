@@ -2,11 +2,10 @@ module DataMemory #(parameter IMAGE_WIDTH=320,IMAGE_HEIGHT=320,PIX_SIZE=8)
 						(input logic CLK, WE,
 						input logic [19:0] Addr,
 						input logic [7:0][7:0]WD,
-						output logic [7:0][7:0] RD //8 de 8bits 
+						output logic [16:0][7:0] RD //8 de 8bits 
 						);
 	
-	logic [7:0] memory1[51200-1:0];
-	logic [7:0] memory2[51200-1:0];
+	logic [7:0] memory1[36864-1:0];
 	logic [20:0] var1,var2,var3,var4,var5,var6,var7;
 	//output logic[7:0][N-1:0] outData,
 		

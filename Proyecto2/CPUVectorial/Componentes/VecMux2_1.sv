@@ -1,8 +1,8 @@
-module VecMux2_1 #(parameter N=20)
-	(input [7:0][N-1:0] a,                 
-    input [7:0][N-1:0] b,                                 
+module VecMux2_1 #(parameter N=8, parameter M=16)
+	(input [M-1:0][N-1:0] a,                 
+    input [M-1:0][N-1:0] b,                                 
     input logic sel,             
-    output reg [7:0][N-1:0] out);         
+    output reg [M-1:0][N-1:0] out);         
 
 	always @ (a or b or sel) begin
 		case (sel)

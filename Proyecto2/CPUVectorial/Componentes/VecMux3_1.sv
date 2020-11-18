@@ -1,9 +1,9 @@
-module VecMux3_1 #(parameter N=20)
-	( input [7:0][N-1:0] a,                 
-    input [7:0][N-1:0] b,                 
-    input [7:0][N-1:0] c,                
-    input [1:0] sel,             
-    output logic [7:0][N-1:0] out);         
+module VecMux3_1 #(parameter N=8, parameter M=16)
+	( input [M-1:0][N-1:0] a,                 
+    input [M-1:0][N-1:0] b,                 
+    input [M-1:0][N-1:0] c,                
+    input [M-1:0] sel,             
+    output logic [M-1:0][N-1:0] out);         
 
 always_comb begin
 	case (sel)

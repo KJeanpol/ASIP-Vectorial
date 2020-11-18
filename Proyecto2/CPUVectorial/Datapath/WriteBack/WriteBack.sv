@@ -1,8 +1,8 @@
-module WriteBack #(parameter N=20)(
-    input logic [7:0] [N-1:0] ALUOutW, ReadDataW,
+module WriteBack #(parameter N=32)(
+    input logic [15:0] [N-1:0] ALUOutW, ReadDataW,
     input logic MemtoRegW,
-    output logic [7:0] [N-1:0] ResultW
+    output logic [15:0] [N-1:0] ResultW
 );
-    VecMux2_1 #(20) muxWB(ALUOutW, ReadDataW, MemtoRegW,ResultW); 
+    VecMux2_1 #(8,16) muxWB(ALUOutW, ReadDataW, MemtoRegW,ResultW); 
     
 endmodule

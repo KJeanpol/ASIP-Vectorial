@@ -9,57 +9,138 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/simulation/modelsim
-vHazardUnit
+vDuplex
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1605389270
+Z2 !s110 1605675976
 !i10b 1
-!s100 j:2aO1D`AeMohODRJ=9;Q2
-Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IMVA4P9VMm2Bkfj0;e0HU?0
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s100 k?i5ezOMCKAmenVLIG9De3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IA_ZFbCABf:VfXABnWUd_G0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1605389264
-8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv
-FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv
-!i122 7
-L0 1 55
-Z4 OV;L;2020.1;71
+w1605672015
+8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/Duplex.sv
+FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/Duplex.sv
+!i122 4
+L0 1 24
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1605389270.000000
-!s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv|
+Z6 !s108 1605675976.000000
+!s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/Duplex.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/Duplex.sv|
 !i113 1
-Z5 o-sv -work work
-!s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit
-Z6 tCvgOpt 0
-n@hazard@unit
-vTestBenchHazardUnit
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU
+Z9 tCvgOpt 0
+n@duplex
+vScalarALU
 R1
-!s110 1605389409
+!s110 1605675975
 !i10b 1
-!s100 ?6Y>1o]5h7aclK>]TL`8@1
-R2
-I`4Iz5S0]iQ4KD22V=RFLf0
+!s100 UROU?11[Y^EOHLhoH0CG60
 R3
+I]Rh6bo?M[D7VlIcL8iR?L3
+R4
 S1
 R0
-w1605389401
-8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv
-FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv
-!i122 9
-L0 2 135
-R4
+w1604711623
+8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv
+FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv
+!i122 0
+L0 1 16
+R5
 r1
 !s85 0
 31
-!s108 1605389409.000000
-!s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchHazardUnit.sv|
+!s108 1605675975.000000
+!s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv|
 !i113 1
+R7
+R8
+R9
+n@scalar@a@l@u
+vTestbenchALU
+R1
+R2
+!i10b 1
+!s100 <UO270LS>:J5cUWV:Bgak3
+R3
+Ide^z0n]LjhDZ_oh>?l`Pl0
+R4
+S1
+R0
+w1605675938
+8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv
+FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv
+!i122 2
+L0 1 99
 R5
-!s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs
+r1
+!s85 0
+31
 R6
-n@test@bench@hazard@unit
+!s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv|
+!i113 1
+R7
+!s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs
+R9
+n@testbench@a@l@u
+vVecALU
+R1
+!s110 1605676040
+!i10b 1
+!s100 <eXFN`j;l8B6mX;E[PNZM0
+R3
+IjnP_4_d4J6o6;SPa:X_c?0
+R4
+S1
+R0
+w1605676031
+8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv
+FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv
+!i122 5
+L0 1 41
+R5
+r1
+!s85 0
+31
+!s108 1605676040.000000
+!s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv|
+!i113 1
+R7
+R8
+R9
+n@vec@a@l@u
+vVecMux2_1
+R1
+R2
+!i10b 1
+!s100 f[?8]hFe;LD3m7oH5@e`13
+R3
+IKNH:RFZ@LTA2ATbWmoc6R2
+R4
+S1
+R0
+w1605675271
+8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux2_1.sv
+FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux2_1.sv
+!i122 3
+L0 1 13
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux2_1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux2_1.sv|
+!i113 1
+R7
+!s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes
+R9
+n@vec@mux2_1

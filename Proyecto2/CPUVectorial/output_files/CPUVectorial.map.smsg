@@ -1,2 +1,1 @@
 Warning (10268): Verilog HDL information at TestbenchALU.sv(21): always construct contains both blocking and non-blocking assignments File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv Line: 21
-Warning (10268): Verilog HDL information at DataMemory.sv(35): always construct contains both blocking and non-blocking assignments File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 35

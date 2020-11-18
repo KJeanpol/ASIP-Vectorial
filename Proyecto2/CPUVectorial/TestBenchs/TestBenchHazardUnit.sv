@@ -1,17 +1,17 @@
 //`timescale 1ns / 1ps
 module TestBenchHazardUnit();
 
-    logic [7:0] RA1E;
-    logic [7:0] RA2E;
-    logic [7:0] WA3M;
-    logic [7:0] WA3W;
+    logic [3:0] RA1E;
+    logic [3:0] RA2E;
+    logic [3:0] WA3M;
+    logic [3:0] WA3W;
     logic RegWriteM;
     logic RegWriteW;
     logic [1:0] ForwardAE;
     logic [1:0] ForwardBE;
-    logic [7:0] RA1D;
-    logic [7:0] RA2D;
-    logic [7:0] WA3E;
+    logic [3:0] RA1D;
+    logic [3:0] RA2D;
+    logic [3:0] WA3E;
     logic MemtoRegE;
     logic StallF;
     logic StallD;

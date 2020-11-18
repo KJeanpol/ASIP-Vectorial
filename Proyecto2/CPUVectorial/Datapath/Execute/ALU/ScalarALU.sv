@@ -1,4 +1,4 @@
-module ScalarALU #(parameter N=20)(input logic [N-1:0] A, B,
+module ScalarALU #(parameter N=8)(input logic [N-1:0] A, B,
  				 input logic [2:0] F,
 				 output logic [N-1:0] Result
 				 );

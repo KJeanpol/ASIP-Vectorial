@@ -1,12 +1,12 @@
 module TestbenchALU();
 	
 	logic clk,reset;
-	logic [7:0][19:0] A, B, Result;
+	logic [15:0][7:0] A, B, Result;
 	logic [2:0] Operation;
 
 	
 	// instancia
-	VecALU #(20, 8) dut(A, B, Operation, Result);
+	VecALU #(8, 16) dut(A, B, Operation, Result);
 
 	initial begin
 		reset <= 1; #5; reset <=0;

@@ -36,6 +36,9 @@ module ALUDecoder(ALUOp, Funct, ALUControl, SrcA);
 		  5'b11010 : begin // MOV 
 				logicOutputs <= 4'b0101; //ADD alucontrol = 000
 		  end
+		  5'b11111 : begin // DUP 
+				logicOutputs <= 4'b1110; 
+		  end
 		  default : begin
 		  end
 		endcase

@@ -1,7 +1,7 @@
-Analysis & Elaboration Status : Successful - Tue Nov 17 23:05:53 2020
+Analysis & Elaboration Status : Successful - Thu Nov 19 20:59:42 2020
 Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 Revision Name : CPUVectorial
-Top-level Entity Name : TestbenchALU
+Top-level Entity Name : DataMemory
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A until Partition Merge
 Total registers : N/A until Partition Merge

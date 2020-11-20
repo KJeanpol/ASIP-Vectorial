@@ -1,4 +1,4 @@
-module Duplex #(parameter N=8, parameter V=16) 
+module Duplex #(parameter N=16, parameter V=16) 
 					(input logic [V-1:0][N-1:0] A,
 					 output logic [V-1:0] [N-1:0] Result
 					); 

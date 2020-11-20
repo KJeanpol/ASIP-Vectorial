@@ -1,4 +1,4 @@
-module ExecutePipe #(parameter N=32)(
+module ExecutePipe #(parameter N=16)(
 		input logic [15:0][N-1:0] ALUResult,
 		input logic [15:0][N-1:0] writeData,
 		input logic [3:0] WA3,
@@ -14,22 +14,22 @@ module ExecutePipe #(parameter N=32)(
 			if(reset) 
 				begin
 				//ALUResult
-				ALUResultW [0]= 8'b0;
-				ALUResultW [1]= 8'b0;
-				ALUResultW [2]= 8'b0;
-				ALUResultW [3]= 8'b0;
-				ALUResultW [4]= 8'b0;
-				ALUResultW [5]= 8'b0;
-				ALUResultW [6]= 8'b0;
-				ALUResultW [7]= 8'b0;
-				ALUResultW [8]= 8'b0;
-				ALUResultW [9]= 8'b0;
-				ALUResultW [10]= 8'b0;
-				ALUResultW [11]= 8'b0;
-				ALUResultW [12]= 8'b0;
-				ALUResultW [13]= 8'b0;
-				ALUResultW [14]= 8'b0;
-				ALUResultW [15]= 8'b0;
+				ALUResultW [0]= 16'b0;
+				ALUResultW [1]= 16'b0;
+				ALUResultW [2]= 16'b0;
+				ALUResultW [3]= 16'b0;
+				ALUResultW [4]= 16'b0;
+				ALUResultW [5]= 16'b0;
+				ALUResultW [6]= 16'b0;
+				ALUResultW [7]= 16'b0;
+				ALUResultW [8]= 16'b0;
+				ALUResultW [9]= 16'b0;
+				ALUResultW [10]= 16'b0;
+				ALUResultW [11]= 16'b0;
+				ALUResultW [12]= 16'b0;
+				ALUResultW [13]= 16'b0;
+				ALUResultW [14]= 16'b0;
+				ALUResultW [15]= 16'b0;
 
 				RegWriteW = 1'b0;
 				MemtoRegW = 1'b0;

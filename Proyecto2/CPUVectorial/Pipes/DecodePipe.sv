@@ -1,4 +1,4 @@
-module DecodePipe #(parameter N=8)(
+module DecodePipe #(parameter N=16)(
 		input logic [15:0][N-1:0] rd1,
 		input logic [15:0][N-1:0] rd2,
 		input logic [3:0] ra1,ra2,
@@ -22,58 +22,58 @@ module DecodePipe #(parameter N=8)(
 		if(reset) 
 			begin
 			//rd1
-			rd1o [0]= 8'b0;
-			rd1o [1]= 8'b0;
-			rd1o [2]= 8'b0;
-			rd1o [3]= 8'b0;
-			rd1o [4]= 8'b0;
-			rd1o [5]= 8'b0;
-			rd1o [6]= 8'b0;
-			rd1o [7]= 8'b0;
-			rd1o [8]= 8'b0;
-			rd1o [9]= 8'b0;
-			rd1o [10]= 8'b0;
-			rd1o [12]= 8'b0;
-			rd1o [13]= 8'b0;
-			rd1o [14]= 8'b0;
-			rd1o [15]= 8'b0;
+			rd1o [0]= 16'b0;
+			rd1o [1]= 16'b0;
+			rd1o [2]= 16'b0;
+			rd1o [3]= 16'b0;
+			rd1o [4]= 16'b0;
+			rd1o [5]= 16'b0;
+			rd1o [6]= 16'b0;
+			rd1o [7]= 16'b0;
+			rd1o [8]= 16'b0;
+			rd1o [9]= 16'b0;
+			rd1o [10]= 16'b0;
+			rd1o [12]= 16'b0;
+			rd1o [13]= 16'b0;
+			rd1o [14]= 16'b0;
+			rd1o [15]= 16'b0;
 			//rd2
-			rd2o [0]= 8'b0;
-			rd2o [1]= 8'b0;
-			rd2o [2]= 8'b0;
-			rd2o [3]= 8'b0;
-			rd2o [4]= 8'b0;
-			rd2o [5]= 8'b0;
-			rd2o [6]= 8'b0;
-			rd2o [7]= 8'b0;
-			rd2o [8]= 8'b0;
-			rd2o [9]= 8'b0;
-			rd2o [10]= 8'b0;
-			rd2o [11]= 8'b0;
-			rd2o [12]= 8'b0;
-			rd2o [13]= 8'b0;
-			rd2o [14]= 8'b0;
-			rd2o [15]= 8'b0;
+			rd2o [0]= 16'b0;
+			rd2o [1]= 16'b0;
+			rd2o [2]= 16'b0;
+			rd2o [3]= 16'b0;
+			rd2o [4]= 16'b0;
+			rd2o [5]= 16'b0;
+			rd2o [6]= 16'b0;
+			rd2o [7]= 16'b0;
+			rd2o [8]= 16'b0;
+			rd2o [9]= 16'b0;
+			rd2o [10]= 16'b0;
+			rd2o [11]= 16'b0;
+			rd2o [12]= 16'b0;
+			rd2o [13]= 16'b0;
+			rd2o [14]= 16'b0;
+			rd2o [15]= 16'b0;
 			//ra
 			ra1o = 4'b0;
 			ra2o = 4'b0;
 			//extendO
-			extendO[0] = 8'b0;
-			extendO[1] = 8'b0;
-			extendO[2] = 8'b0;
-			extendO[3] = 8'b0;
-			extendO[4] = 8'b0;
-			extendO[5] = 8'b0;
-			extendO[6] = 8'b0;
-			extendO[7] = 8'b0;
-			extendO[8] = 8'b0;
-			extendO[9] = 8'b0;
-			extendO[10] = 8'b0;
-			extendO[11] = 8'b0;
-			extendO[12] = 8'b0;
-			extendO[13] = 8'b0;
-			extendO[14] = 8'b0;
-			extendO[15] = 8'b0;
+			extendO[0] = 16'b0;
+			extendO[1] = 16'b0;
+			extendO[2] = 16'b0;
+			extendO[3] = 16'b0;
+			extendO[4] = 16'b0;
+			extendO[5] = 16'b0;
+			extendO[6] = 16'b0;
+			extendO[7] = 16'b0;
+			extendO[8] = 16'b0;
+			extendO[9] = 16'b0;
+			extendO[10] = 16'b0;
+			extendO[11] = 16'b0;
+			extendO[12] = 16'b0;
+			extendO[13] = 16'b0;
+			extendO[14] = 16'b0;
+			extendO[15] = 16'b0;
 			//RegWriteO, MemtoRegO, MemWriteO, ALUSrcO, ALUControlO, WA3O
 			RegWriteO = 1'b0;
 			MemtoRegO = 1'b0;

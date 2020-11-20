@@ -16,7 +16,7 @@ module ALUDecoder(ALUOp, Funct, ALUControl, SrcA);
 	always @(*) begin
 		casex (caseCond)
 		  5'b0Xxxx : begin // NOT DP
-				logicOutputs <= 4'b1110;
+				logicOutputs <= 4'b1100;
 		  end
 		  5'b1X000 : begin // ADD
 			logicOutputs <= 4'b0000;

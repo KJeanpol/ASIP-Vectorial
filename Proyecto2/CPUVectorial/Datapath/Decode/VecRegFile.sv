@@ -1,4 +1,4 @@
-module VecRegFile #(parameter N = 8)(
+module VecRegFile #(parameter N = 16)(
 	input logic clk, reset,
 	input logic we3,
 	input logic [3:0] ra1, ra2, ra3,

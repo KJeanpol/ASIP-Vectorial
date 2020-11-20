@@ -1,4 +1,4 @@
-module VecALU #(parameter N=8, parameter V=16) 
+module VecALU #(parameter N=16, parameter V=16) 
 					(input logic [V-1:0][N-1:0] A, B,
 					 input logic [2:0] Op,
 					 output logic [V-1:0] [N-1:0] Result

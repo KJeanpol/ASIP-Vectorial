@@ -1,5 +1,5 @@
 Analysis & Elaboration report for CPUVectorial
-Tue Nov 17 23:05:53 2020
+Thu Nov 19 20:59:42 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -9,30 +9,10 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
   1. Legal Notice
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
-  4. Parameter Settings for User Entity Instance: VecALU:dut
-  5. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu1
-  6. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu2
-  7. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu3
-  8. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu4
-  9. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu5
- 10. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu6
- 11. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu7
- 12. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu8
- 13. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu9
- 14. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu10
- 15. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu11
- 16. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu12
- 17. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu13
- 18. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu14
- 19. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu15
- 20. Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu16
- 21. Parameter Settings for User Entity Instance: VecALU:dut|Duplex:dup
- 22. Parameter Settings for User Entity Instance: VecALU:dut|VecMux2_1:MUX
- 23. Analysis & Elaboration Settings
- 24. Port Connectivity Checks: "VecALU:dut|VecMux2_1:MUX"
- 25. Port Connectivity Checks: "VecALU:dut"
- 26. Analysis & Elaboration Messages
- 27. Analysis & Elaboration Suppressed Messages
+  4. Parameter Settings for User Entity Instance: Top-level Entity: |DataMemory
+  5. Analysis & Elaboration Settings
+  6. Analysis & Elaboration Messages
+  7. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -59,10 +39,10 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Tue Nov 17 23:05:53 2020       ;
+; Analysis & Elaboration Status ; Successful - Thu Nov 19 20:59:42 2020       ;
 ; Quartus Prime Version         ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                 ; CPUVectorial                                ;
-; Top-level Entity Name         ; TestbenchALU                                ;
+; Top-level Entity Name         ; DataMemory                                  ;
 ; Family                        ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
 ; Total registers               ; N/A until Partition Merge                   ;
@@ -90,196 +70,15 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut ;
-+----------------+-------+--------------------------------+
-; Parameter Name ; Value ; Type                           ;
-+----------------+-------+--------------------------------+
-; N              ; 32    ; Signed Integer                 ;
-; V              ; 16    ; Signed Integer                 ;
-+----------------+-------+--------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu1 ;
-+----------------+-------+-----------------------------------------------+
-; Parameter Name ; Value ; Type                                          ;
-+----------------+-------+-----------------------------------------------+
-; N              ; 32    ; Signed Integer                                ;
-+----------------+-------+-----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu2 ;
-+----------------+-------+-----------------------------------------------+
-; Parameter Name ; Value ; Type                                          ;
-+----------------+-------+-----------------------------------------------+
-; N              ; 32    ; Signed Integer                                ;
-+----------------+-------+-----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu3 ;
-+----------------+-------+-----------------------------------------------+
-; Parameter Name ; Value ; Type                                          ;
-+----------------+-------+-----------------------------------------------+
-; N              ; 32    ; Signed Integer                                ;
-+----------------+-------+-----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu4 ;
-+----------------+-------+-----------------------------------------------+
-; Parameter Name ; Value ; Type                                          ;
-+----------------+-------+-----------------------------------------------+
-; N              ; 32    ; Signed Integer                                ;
-+----------------+-------+-----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu5 ;
-+----------------+-------+-----------------------------------------------+
-; Parameter Name ; Value ; Type                                          ;
-+----------------+-------+-----------------------------------------------+
-; N              ; 32    ; Signed Integer                                ;
-+----------------+-------+-----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu6 ;
-+----------------+-------+-----------------------------------------------+
-; Parameter Name ; Value ; Type                                          ;
-+----------------+-------+-----------------------------------------------+
-; N              ; 32    ; Signed Integer                                ;
-+----------------+-------+-----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu7 ;
-+----------------+-------+-----------------------------------------------+
-; Parameter Name ; Value ; Type                                          ;
-+----------------+-------+-----------------------------------------------+
-; N              ; 32    ; Signed Integer                                ;
-+----------------+-------+-----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu8 ;
-+----------------+-------+-----------------------------------------------+
-; Parameter Name ; Value ; Type                                          ;
-+----------------+-------+-----------------------------------------------+
-; N              ; 32    ; Signed Integer                                ;
-+----------------+-------+-----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu9 ;
-+----------------+-------+-----------------------------------------------+
-; Parameter Name ; Value ; Type                                          ;
-+----------------+-------+-----------------------------------------------+
-; N              ; 32    ; Signed Integer                                ;
-+----------------+-------+-----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu10 ;
-+----------------+-------+------------------------------------------------+
-; Parameter Name ; Value ; Type                                           ;
-+----------------+-------+------------------------------------------------+
-; N              ; 32    ; Signed Integer                                 ;
-+----------------+-------+------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu11 ;
-+----------------+-------+------------------------------------------------+
-; Parameter Name ; Value ; Type                                           ;
-+----------------+-------+------------------------------------------------+
-; N              ; 32    ; Signed Integer                                 ;
-+----------------+-------+------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu12 ;
-+----------------+-------+------------------------------------------------+
-; Parameter Name ; Value ; Type                                           ;
-+----------------+-------+------------------------------------------------+
-; N              ; 32    ; Signed Integer                                 ;
-+----------------+-------+------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu13 ;
-+----------------+-------+------------------------------------------------+
-; Parameter Name ; Value ; Type                                           ;
-+----------------+-------+------------------------------------------------+
-; N              ; 32    ; Signed Integer                                 ;
-+----------------+-------+------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu14 ;
-+----------------+-------+------------------------------------------------+
-; Parameter Name ; Value ; Type                                           ;
-+----------------+-------+------------------------------------------------+
-; N              ; 32    ; Signed Integer                                 ;
-+----------------+-------+------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu15 ;
-+----------------+-------+------------------------------------------------+
-; Parameter Name ; Value ; Type                                           ;
-+----------------+-------+------------------------------------------------+
-; N              ; 32    ; Signed Integer                                 ;
-+----------------+-------+------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|ScalarALU:alu16 ;
-+----------------+-------+------------------------------------------------+
-; Parameter Name ; Value ; Type                                           ;
-+----------------+-------+------------------------------------------------+
-; N              ; 32    ; Signed Integer                                 ;
-+----------------+-------+------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|Duplex:dup ;
-+----------------+-------+-------------------------------------------+
-; Parameter Name ; Value ; Type                                      ;
-+----------------+-------+-------------------------------------------+
-; N              ; 32    ; Signed Integer                            ;
-; V              ; 16    ; Signed Integer                            ;
-+----------------+-------+-------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: VecALU:dut|VecMux2_1:MUX ;
-+----------------+-------+----------------------------------------------+
-; Parameter Name ; Value ; Type                                         ;
-+----------------+-------+----------------------------------------------+
-; N              ; 32    ; Signed Integer                               ;
-; M              ; 16    ; Signed Integer                               ;
-+----------------+-------+----------------------------------------------+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |DataMemory ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; IMAGE_WIDTH    ; 96    ; Signed Integer                                    ;
+; IMAGE_HEIGHT   ; 96    ; Signed Integer                                    ;
+; PIX_SIZE       ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -289,7 +88,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSEMA4U23C6       ;                    ;
-; Top-level entity name                                                           ; TestbenchALU       ; CPUVectorial       ;
+; Top-level entity name                                                           ; DataMemory         ; CPUVectorial       ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -370,33 +169,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------------------+
-; Port Connectivity Checks: "VecALU:dut|VecMux2_1:MUX" ;
-+------+-------+----------+----------------------------+
-; Port ; Type  ; Severity ; Details                    ;
-+------+-------+----------+----------------------------+
-; sel  ; Input ; Info     ; Stuck at VCC               ;
-+------+-------+----------+----------------------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "VecALU:dut"                                                                             ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                             ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
-; A[15..8] ; Input  ; Info     ; Stuck at GND                                                                        ;
-; B[15..8] ; Input  ; Info     ; Stuck at GND                                                                        ;
-; Result   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
-
-
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Tue Nov 17 23:05:41 2020
+    Info: Processing started: Thu Nov 19 20:58:03 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPUVectorial -c CPUVectorial --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -456,20 +235,17 @@ Info (12021): Found 1 design units, including 1 entities, in source file memoria
     Info (12023): Found entity 1: DataMemory File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file datapath/execute/alu/duplex.sv
     Info (12023): Found entity 1: Duplex File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/Duplex.sv Line: 1
-Info (12127): Elaborating entity "TestbenchALU" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at TestbenchALU.sv(3): object "reset" assigned a value but never read File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv Line: 3
-Warning (10030): Net "A[15..8]" at TestbenchALU.sv(4) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv Line: 4
-Warning (10030): Net "B[15..8]" at TestbenchALU.sv(4) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv Line: 4
-Info (12128): Elaborating entity "VecALU" for hierarchy "VecALU:dut" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv Line: 9
-Info (12128): Elaborating entity "ScalarALU" for hierarchy "VecALU:dut|ScalarALU:alu1" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv Line: 10
-Info (12128): Elaborating entity "Duplex" for hierarchy "VecALU:dut|Duplex:dup" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv Line: 26
-Info (12128): Elaborating entity "VecMux2_1" for hierarchy "VecALU:dut|VecMux2_1:MUX" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv Line: 36
+Info (12127): Elaborating entity "DataMemory" for the top level hierarchy
+Warning (10850): Verilog HDL warning at DataMemory.sv(14): number of words (0) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 14
+Warning (10855): Verilog HDL warning at DataMemory.sv(14): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 14
+Warning (10175): Verilog HDL warning at DataMemory.sv(44): ignoring unsupported system task File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 44
+Warning (10034): Output port "RD[15..8]" at DataMemory.sv(5) has no driver File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 5
 Info (144001): Generated suppressed messages file C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/output_files/CPUVectorial.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4788 megabytes
-    Info: Processing ended: Tue Nov 17 23:05:53 2020
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:29
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 6116 megabytes
+    Info: Processing ended: Thu Nov 19 20:59:42 2020
+    Info: Elapsed time: 00:01:39
+    Info: Total CPU time (on all processors): 00:02:09
 
 
 +--------------------------------------------+

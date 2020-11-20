@@ -1,4 +1,4 @@
-module InstrMem #(parameter N=18) (
+module InstrMem(
 			input logic [31:0] PC,
     		output logic [27:0] Instr );
 	

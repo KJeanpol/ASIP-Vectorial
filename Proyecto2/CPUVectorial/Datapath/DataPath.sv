@@ -1,4 +1,4 @@
-module DataPath #(parameter N=8)(
+module DataPath #(parameter N=16)(
     input logic CLK, RST, CLR2, EN1, EN2, RegWriteD, MemtoRegD, MemWriteD,
     input logic [2:0] ALUControlD,
     input logic [1:0] ImmSrcD, ALUSrcD,
@@ -33,7 +33,7 @@ module DataPath #(parameter N=8)(
     Decode decode(CLK, RST, RegWriteW, ImmSrcD, InstrD, ResultW, WA3W, RegSrc, rd1, rd2, ExtImm, ra1D, ra2D); 
 
     //DecodePipe
-    DecodePipe #(8) decodePipe(rd1, rd2, ra1D, ra2D, ExtImm, CLK, CLR2, 1'b1, RegWriteD, MemtoRegD, MemWriteD, ALUSrcD, ALUControlD, InstrD[7:4], rd1E, rd2E, ra1E, ra2E, ExtImmE, RegWriteE, MemtoRegE, MemWriteE, ALUSrcE, ALUControlE, WA3E); 
+    DecodePipe #(16) decodePipe(rd1, rd2, ra1D, ra2D, ExtImm, CLK, CLR2, 1'b1, RegWriteD, MemtoRegD, MemWriteD, ALUSrcD, ALUControlD, InstrD[7:4], rd1E, rd2E, ra1E, ra2E, ExtImmE, RegWriteE, MemtoRegE, MemWriteE, ALUSrcE, ALUControlE, WA3E); 
    
 	 //Execute                     
     Execute execute(rd1E, rd2E, ResultW, ALUResultM, ExtImmE, ForwardAE, ForwardBE, ALUSrcE, ALUControlE, writeDataE, AluResultE);               
@@ -44,7 +44,7 @@ module DataPath #(parameter N=8)(
 	 //Luego va MEM
 	 
     //WriteBackPipe
-    WriteBackPipe #(8) wbpipe(RDM, ALUResultM, CLK, 1'b0, 1'b1, WA3M, RegWriteM, MemtoRegM, ReadDataW, RegWriteW, MemtoRegW, WA3W, ALUOutW);
+    WriteBackPipe #(16) wbpipe(RDM, ALUResultM, CLK, 1'b0, 1'b1, WA3M, RegWriteM, MemtoRegM, ReadDataW, RegWriteW, MemtoRegW, WA3W, ALUOutW);
 
 	 //WriteBack
     WriteBack writeback(ALUOutW, ReadDataW, MemtoRegW, ResultW);

@@ -1,4 +1,4 @@
-module VecMux3_1 #(parameter N=8, parameter M=16)
+module VecMux3_1 #(parameter N=16, parameter M=16)
 	( input [M-1:0][N-1:0] a,                 
     input [M-1:0][N-1:0] b,                 
     input [M-1:0][N-1:0] c,                

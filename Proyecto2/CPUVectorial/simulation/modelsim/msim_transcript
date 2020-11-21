@@ -10,104 +10,82 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv}
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchLECDataMemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 23:06:15 on Nov 17,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv 
-# -- Compiling module ScalarALU
+# Start time: 21:50:07 on Nov 20,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchLECDataMemory.sv 
+# -- Compiling module TestBenchLECDataMemory
 # 
 # Top level modules:
-# 	ScalarALU
-# End time: 23:06:15 on Nov 17,2020, Elapsed time: 0:00:00
+# 	TestBenchLECDataMemory
+# End time: 21:50:07 on Nov 20,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv}
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 23:06:15 on Nov 17,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv 
-# -- Compiling module VecALU
-# ** Warning: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv(2): (vlog-13314) Defaulting port 'A' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv(2): (vlog-13314) Defaulting port 'B' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# Start time: 21:50:08 on Nov 20,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv 
+# -- Compiling module LECDataMemory1
 # 
 # Top level modules:
-# 	VecALU
-# End time: 23:06:16 on Nov 17,2020, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 2
-# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 23:06:16 on Nov 17,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestbenchALU.sv 
-# -- Compiling module TestbenchALU
-# 
-# Top level modules:
-# 	TestbenchALU
-# End time: 23:06:16 on Nov 17,2020, Elapsed time: 0:00:00
+# 	LECDataMemory1
+# End time: 21:50:08 on Nov 20,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux2_1.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 23:06:16 on Nov 17,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux2_1.sv 
-# -- Compiling module VecMux2_1
 # 
-# Top level modules:
-# 	VecMux2_1
-# End time: 23:06:16 on Nov 17,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/Duplex.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 23:06:16 on Nov 17,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/Duplex.sv 
-# -- Compiling module Duplex
-# ** Warning: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/Duplex.sv(2): (vlog-13314) Defaulting port 'A' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# 
-# Top level modules:
-# 	Duplex
-# End time: 23:06:16 on Nov 17,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# 
-vsim work.TestbenchALU
-# vsim work.TestbenchALU 
-# Start time: 23:06:23 on Nov 17,2020
+vsim work.TestBenchLECDataMemory
+# vsim work.TestBenchLECDataMemory 
+# Start time: 21:50:14 on Nov 20,2020
 # Loading sv_std.std
-# Loading work.TestbenchALU
-# Loading work.VecALU
-# Loading work.ScalarALU
-# Loading work.Duplex
-# Loading work.VecMux2_1
-add wave -position end  sim:/TestbenchALU/clk
-add wave -position end  sim:/TestbenchALU/reset
-add wave -position end  sim:/TestbenchALU/A
-add wave -position end  sim:/TestbenchALU/B
-add wave -position end  sim:/TestbenchALU/Result
-add wave -position end  sim:/TestbenchALU/Operation
+# Loading work.TestBenchLECDataMemory
+# Loading work.LECDataMemory1
+add wave -position end  sim:/TestBenchLECDataMemory/CLK
+add wave -position end  sim:/TestBenchLECDataMemory/A
+add wave -position end  sim:/TestBenchLECDataMemory/RD
+add wave -position end  sim:/TestBenchLECDataMemory/memory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mary1  Hostname: LAPTOP-7F241RE4  ProcessID: 19172
+#           Attempting to use alternate WLF file "./wlftm4bz3t".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftm4bz3t
 run
-# Simulacion Fallida en ADD
-# Simulacion Fallida en SUB
-# Simulacion Fallida en MOV
-# Simulacion Fallida en MULT
-# Simulacion Fallida en DIV
-# Simulacion Fallida en ADD
-# Simulacion Fallida en SUB
-vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 23:07:20 on Nov 17,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv 
-# -- Compiling module VecALU
-# ** Warning: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv(2): (vlog-13314) Defaulting port 'A' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv(2): (vlog-13314) Defaulting port 'B' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# Start time: 21:56:17 on Nov 20,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv 
+# -- Compiling module LECDataMemory1
 # 
 # Top level modules:
-# 	VecALU
-# End time: 23:07:20 on Nov 17,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 2
+# 	LECDataMemory1
+# End time: 21:56:18 on Nov 20,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
 restart
-# Loading work.VecALU
+# Loading work.LECDataMemory1
 run
-# Simulacion Exitosa en ADD
-# Simulacion Exitosa en SUB
-# Simulacion Fallida en MOV
-# Simulacion Exitosa en MULT
-# Simulacion Exitosa en DIV
-# Simulacion Exitosa en ADD
-# Simulacion Exitosa en SUB
-# End time: 23:09:18 on Nov 17,2020, Elapsed time: 0:02:55
+vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:57:24 on Nov 20,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv 
+# -- Compiling module LECDataMemory1
+# 
+# Top level modules:
+# 	LECDataMemory1
+# End time: 21:57:24 on Nov 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchLECDataMemory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:57:24 on Nov 20,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchLECDataMemory.sv 
+# -- Compiling module TestBenchLECDataMemory
+# 
+# Top level modules:
+# 	TestBenchLECDataMemory
+# End time: 21:57:24 on Nov 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.TestBenchLECDataMemory
+# Loading work.LECDataMemory1
+run
+# End time: 21:57:40 on Nov 20,2020, Elapsed time: 0:07:26
 # Errors: 0, Warnings: 0

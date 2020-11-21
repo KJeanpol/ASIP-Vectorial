@@ -25,17 +25,17 @@ module VecALU #(parameter N=16, parameter V=16)
 	ScalarALU #(8) alu16(A[15], B[15], Op, resultado[15]);
 	Duplex dup(A,resultado2);
 	
+
+	
 	always @ (Op)
 	begin
-		if (Op==111)
+		if (Op==3'b111)
 			sel<=1;
 		else
 			sel<=0;
 	end
-	
-	VecMux2_1 #(8,16) MUX(resultado,resultado2,sel,Result);
-	
-	
+		
+	VecMux2_1 #(16,16) MUX(resultado,resultado2,sel,Result);
  	
 	
 endmodule

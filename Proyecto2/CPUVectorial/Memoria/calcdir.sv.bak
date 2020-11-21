@@ -1,0 +1,21 @@
+module calcdir(input logic [15:0] Addr,
+					output logic [15:0] outAddr);
+					
+			assign outAddr[0] = Addr;
+			assign outAddr[1] = Addr+16'b1000;
+			assign outAddr[2] = Addr+16'b10000;
+			assign outAddr[3] = Addr+16'b11000;
+			assign outAddr[4] = Addr+16'b100000;
+			assign outAddr[5] = Addr+16'b101000;
+			assign outAddr[6] = Addr+16'b110000;
+			assign outAddr[7] = Addr+16'b111000;
+			assign outAddr[8] = Addr+16'b1000000;
+			assign outAddr[9] = Addr+16'b1001000;
+			assign outAddr[10] = Addr+16'b1010000;
+			assign outAddr[11] = Addr+16'b1011000;
+			assign outAddr[12] = Addr+16'b1100000;
+			assign outAddr[13] = Addr+16'b1101000;
+			assign outAddr[14] = Addr+16'b1110000;
+			assign outAddr[15] = Addr+16'b1111000;
+			
+endmodule:calcdir

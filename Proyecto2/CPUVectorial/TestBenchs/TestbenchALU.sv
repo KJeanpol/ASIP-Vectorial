@@ -22,10 +22,10 @@ module TestbenchALU();
 	begin
 		//ADD
 		A[0]<=200; A[1]<=254; A[2]<=251; A[3]<=200; A[4]<=05; A[5]<=10; A[6]<=100; A[7]<=15;
-		B[0]<=100; B[1]<=1; B[2]<=1; B[3]<=45; B[4]<=25; B[5]<=1; B[6]<=2; B[7]<=10; 
+		B[0]<=10; B[1]<=1; B[2]<=1; B[3]<=45; B[4]<=25; B[5]<=1; B[6]<=2; B[7]<=10; 
 		Operation = 3'b000;
 		#10;
-		if(Result[0]==300 && Result[1]==255 && Result[2]==252 && Result[3]==245 && Result[4]==30 && Result[5]==11 && Result[6]==102 && Result[7]==25) begin
+		if(Result[0]==210 && Result[1]==255 && Result[2]==252 && Result[3]==245 && Result[4]==30 && Result[5]==11 && Result[6]==102 && Result[7]==25) begin
 				$display("Simulacion Exitosa en ADD");
 				//$display(Result);
 		end 
@@ -50,7 +50,7 @@ module TestbenchALU();
 	
 		
 		//MOV
-		A[0]<=100; A[1]<=255; A[2]<=251; A[3]<=200; A[4]<=25; A[5]<=10; A[6]<=100; A[7]<=15;
+		B[0]<=100; B[1]<=255; B[2]<=251; B[3]<=200; B[4]<=25; B[5]<=10; B[6]<=100; B[7]<=15;
 		Operation = 3'b010;
 		#10;
 		if(Result[0]==100 && Result[1]==255 && Result[2]==251 && Result[3]==200 && Result[4]==25 && Result[5]==10 && Result[6]==100 && Result[7]==15) begin
@@ -92,6 +92,21 @@ module TestbenchALU();
 		end
 		#10;
 		
+		#10;
+		//DUPLEX
+		A[0]<=2; A[1]<=6; A[2]<=10; A[3]<=15; A[4]<=200; A[5]<=8; A[6]<=25; A[7]<=50;
+		B[0]<=2; B[1]<=2; B[2]<=2; B[3]<=2; B[4]<=100; B[5]<=4; B[6]<=5; B[7]<=2; 
+		Operation = 3'b111;
+		#10;
+		if(Result[0]==2 && Result[1]==2 && Result[2]==6 && Result[3]==6 && Result[4]==10 && Result[5]==10 && Result[6]==15 && Result[7]==15) begin
+				$display("Simulacion Exitosa en DUPLEX");
+				//$display(Result);
+		end 
+		else begin 
+				$display("Simulacion Fallida en DUPLEX");
+				//$display(Result);
+		end
+		#10;
 		
 	end
 	

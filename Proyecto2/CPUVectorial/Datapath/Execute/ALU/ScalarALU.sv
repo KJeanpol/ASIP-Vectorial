@@ -10,7 +10,7 @@ module ScalarALU #(parameter N=16)(input logic [N-1:0] A, B,
 			3'b011: Result <= A*B; 	 //mul
 			3'b100: Result <= A/B;   //div
 			3'b101: Result <= A<B ? (A>0 ? A:B) : B;  //cmp
-			default: Result <= B; //A*B; 
+			default: Result <= A; //A*B; 
 		endcase
 	
 endmodule

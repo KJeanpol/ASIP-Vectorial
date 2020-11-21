@@ -1,0 +1,17 @@
+module TestBenchcalcdir();
+
+	logic [15:0] Add;
+	logic [15:0] outAddr[15:0];
+	
+	calcdir CALC(Add,outAddr);
+	
+	#10 Add<=0;
+	#10 
+	#10 
+	#10 
+	#10 
+	#10 
+	#10 
+	#10 
+	#10 
+	#10 

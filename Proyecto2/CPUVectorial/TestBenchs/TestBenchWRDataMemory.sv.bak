@@ -1,0 +1,27 @@
+module TestBenchWRDataMemory();
+
+	logic CLK, WE,signal;
+	logic [7:0] A, WD;
+	logic [7:0] RD;
+	logic [7:0] memory[5:0];
+	logic [31:0] contador;
+
+	WRDataMemory #(12,13,8) MEM(CLK,WE, A, WD,RD);
+	
+	
+	initial 
+	
+	begin
+	
+	#10 CLK=1; WE=0; A=16'b0; WD=16'b1; 
+	#10 CLK=0;
+	#10 CLK=1; WE=0; A=16'10; WD=16'b10;
+	#10 CLK=0; WE=1;
+	#10 CLK=1; WE=0; A=16'b11; WD=16'b11;
+	#10 CLK=0; WE=1; A=16'b0; WD=16'b1111;
+	#10 CLK=1; WE=0; 
+	#10 CLK=0; WE=0;
+	 
+	end
+	
+endmodule:TestBenchWRDataMemory

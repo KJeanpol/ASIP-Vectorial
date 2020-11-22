@@ -2,10 +2,10 @@ module TestBenchLECDataMemory();
 
 	logic CLK;
 	logic [15:0] A;
-	logic [15:0] RD[15:0];
+	logic [15:0][15:0] RD;
 	logic [7:0] memory[80:0];
 
-	LECDataMemory1 #(9,9,8) MEM(CLK, A, RD);
+	LECDataMemory2 #(9,9,8) MEM(CLK, A, RD);
 	
 	
 	initial 

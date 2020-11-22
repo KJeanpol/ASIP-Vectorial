@@ -10,82 +10,299 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchLECDataMemory.sv}
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:50:07 on Nov 20,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchLECDataMemory.sv 
-# -- Compiling module TestBenchLECDataMemory
+# Start time: 20:06:07 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv 
+# -- Compiling module DataMemory
+# ** Warning: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv(5): (vlog-13314) Defaulting port 'WD' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # 
 # Top level modules:
-# 	TestBenchLECDataMemory
-# End time: 21:50:07 on Nov 20,2020, Elapsed time: 0:00:00
+# 	DataMemory
+# End time: 20:06:07 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/WRDataMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:08 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/WRDataMemory.sv 
+# -- Compiling module WRDataMemory
+# ** Warning: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/WRDataMemory.sv(4): (vlog-13314) Defaulting port 'WD' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	WRDataMemory
+# End time: 20:06:08 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/calcdir.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:08 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/calcdir.sv 
+# -- Compiling module calcdir
+# 
+# Top level modules:
+# 	calcdir
+# End time: 20:06:08 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux16_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:08 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux16_1.sv 
+# -- Compiling module VecMux16_1
+# 
+# Top level modules:
+# 	VecMux16_1
+# End time: 20:06:08 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchDataMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:09 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchDataMemory.sv 
+# -- Compiling module TestBenchDataMemory
+# 
+# Top level modules:
+# 	TestBenchDataMemory
+# End time: 20:06:09 on Nov 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:50:08 on Nov 20,2020
+# Start time: 20:06:09 on Nov 21,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv 
 # -- Compiling module LECDataMemory1
 # 
 # Top level modules:
 # 	LECDataMemory1
-# End time: 21:50:08 on Nov 20,2020, Elapsed time: 0:00:00
+# End time: 20:06:09 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:09 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory2.sv 
+# -- Compiling module LECDataMemory2
+# 
+# Top level modules:
+# 	LECDataMemory2
+# End time: 20:06:09 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:09 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory3.sv 
+# -- Compiling module LECDataMemory3
+# 
+# Top level modules:
+# 	LECDataMemory3
+# End time: 20:06:09 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:10 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory4.sv 
+# -- Compiling module LECDataMemory4
+# 
+# Top level modules:
+# 	LECDataMemory4
+# End time: 20:06:10 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory5.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:10 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory5.sv 
+# -- Compiling module LECDataMemory5
+# 
+# Top level modules:
+# 	LECDataMemory5
+# End time: 20:06:10 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory6.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:10 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory6.sv 
+# -- Compiling module LECDataMemory6
+# 
+# Top level modules:
+# 	LECDataMemory6
+# End time: 20:06:10 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory7.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:10 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory7.sv 
+# -- Compiling module LECDataMemory7
+# 
+# Top level modules:
+# 	LECDataMemory7
+# End time: 20:06:10 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:11 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory8.sv 
+# -- Compiling module LECDataMemory8
+# 
+# Top level modules:
+# 	LECDataMemory8
+# End time: 20:06:11 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory9.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:11 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory9.sv 
+# -- Compiling module LECDataMemory9
+# 
+# Top level modules:
+# 	LECDataMemory9
+# End time: 20:06:11 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory10.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:11 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory10.sv 
+# -- Compiling module LECDataMemory10
+# 
+# Top level modules:
+# 	LECDataMemory10
+# End time: 20:06:11 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory11.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:11 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory11.sv 
+# -- Compiling module LECDataMemory11
+# 
+# Top level modules:
+# 	LECDataMemory11
+# End time: 20:06:11 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory12.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:12 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory12.sv 
+# -- Compiling module LECDataMemory12
+# 
+# Top level modules:
+# 	LECDataMemory12
+# End time: 20:06:12 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory13.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:12 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory13.sv 
+# -- Compiling module LECDataMemory13
+# 
+# Top level modules:
+# 	LECDataMemory13
+# End time: 20:06:12 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory14.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:12 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory14.sv 
+# -- Compiling module LECDataMemory14
+# 
+# Top level modules:
+# 	LECDataMemory14
+# End time: 20:06:12 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory15.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:12 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory15.sv 
+# -- Compiling module LECDataMemory15
+# 
+# Top level modules:
+# 	LECDataMemory15
+# End time: 20:06:12 on Nov 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria {C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:06:12 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory16.sv 
+# -- Compiling module LECDataMemory16
+# 
+# Top level modules:
+# 	LECDataMemory16
+# End time: 20:06:13 on Nov 21,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
-vsim work.TestBenchLECDataMemory
-# vsim work.TestBenchLECDataMemory 
-# Start time: 21:50:14 on Nov 20,2020
+vsim work.TestBenchDataMemory
+# vsim work.TestBenchDataMemory 
+# Start time: 20:11:53 on Nov 21,2020
 # Loading sv_std.std
-# Loading work.TestBenchLECDataMemory
+# Loading work.TestBenchDataMemory
+# Loading work.DataMemory
 # Loading work.LECDataMemory1
-add wave -position end  sim:/TestBenchLECDataMemory/CLK
-add wave -position end  sim:/TestBenchLECDataMemory/A
-add wave -position end  sim:/TestBenchLECDataMemory/RD
-add wave -position end  sim:/TestBenchLECDataMemory/memory
+# Loading work.LECDataMemory2
+# Loading work.LECDataMemory3
+# Loading work.LECDataMemory4
+# Loading work.LECDataMemory5
+# Loading work.LECDataMemory6
+# Loading work.LECDataMemory7
+# Loading work.LECDataMemory8
+# Loading work.LECDataMemory9
+# Loading work.LECDataMemory10
+# Loading work.LECDataMemory11
+# Loading work.LECDataMemory12
+# Loading work.LECDataMemory13
+# Loading work.LECDataMemory14
+# Loading work.LECDataMemory15
+# Loading work.LECDataMemory16
+# Loading work.WRDataMemory
+# Loading work.calcdir
+# Loading work.VecMux16_1
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'MEM'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TestBenchDataMemory/MEM File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchDataMemory.sv Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 's0'. The port definition is at: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBenchDataMemory/MEM File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchDataMemory.sv Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (256) for port 'Addr'. The port definition is at: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBenchDataMemory/MEM File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchDataMemory.sv Line: 9
+# ** Warning: (vsim-3722) C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchDataMemory.sv(9): [TFMPC] - Missing connection for port 'RD'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (256) does not match connection size (1) for port 'RD'. The port definition is at: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/WRDataMemory.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBenchDataMemory/MEM/WRMEM File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 27
+# Error opening C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/simulation/modelsim/(vsim-3015) [PCDPC] - Port size (256) does not match connection size 
+# Path name 'C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/simulation/modelsim/(vsim-3015) [PCDPC] - Port size (256) does not match connection size ' doesn't exist.
+add wave -position end  sim:/TestBenchDataMemory/CLK
+add wave -position end  sim:/TestBenchDataMemory/WE
+add wave -position end  sim:/TestBenchDataMemory/A
+add wave -position end  sim:/TestBenchDataMemory/RD
+add wave -position end  sim:/TestBenchDataMemory/WD
+add wave -position end  sim:/TestBenchDataMemory/memory
+add wave -position end  sim:/TestBenchDataMemory/s3
+add wave -position end  sim:/TestBenchDataMemory/s2
+add wave -position end  sim:/TestBenchDataMemory/s1
+add wave -position end  sim:/TestBenchDataMemory/s0
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: mary1  Hostname: LAPTOP-7F241RE4  ProcessID: 19172
-#           Attempting to use alternate WLF file "./wlftm4bz3t".
+#           Attempting to use alternate WLF file "./wlftcszzcf".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftm4bz3t
+#           Using alternate file: ./wlftcszzcf
 run
+add wave -position end  sim:/TestBenchDataMemory/MEM/MUX/sel
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'MEM'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TestBenchDataMemory/MEM File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchDataMemory.sv Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 's0'. The port definition is at: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBenchDataMemory/MEM File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchDataMemory.sv Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (256) for port 'Addr'. The port definition is at: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBenchDataMemory/MEM File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchDataMemory.sv Line: 9
+# ** Warning: (vsim-3722) C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchDataMemory.sv(9): [TFMPC] - Missing connection for port 'RD'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (256) does not match connection size (1) for port 'RD'. The port definition is at: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/WRDataMemory.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBenchDataMemory/MEM/WRMEM File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 27
 run
-vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv
+vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchDataMemory.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:56:17 on Nov 20,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv 
-# -- Compiling module LECDataMemory1
+# Start time: 20:16:48 on Nov 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchDataMemory.sv 
+# -- Compiling module TestBenchDataMemory
 # 
 # Top level modules:
-# 	LECDataMemory1
-# End time: 21:56:18 on Nov 20,2020, Elapsed time: 0:00:01
+# 	TestBenchDataMemory
+# End time: 20:16:48 on Nov 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 restart
-# Loading work.LECDataMemory1
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TestBenchDataMemory
+# ** Warning: (vsim-3015) [PCDPC] - Port size (256) does not match connection size (1) for port 'RD'. The port definition is at: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/WRDataMemory.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBenchDataMemory/MEM/WRMEM File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 27
 run
-vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:57:24 on Nov 20,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv 
-# -- Compiling module LECDataMemory1
-# 
-# Top level modules:
-# 	LECDataMemory1
-# End time: 21:57:24 on Nov 20,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchLECDataMemory.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:57:24 on Nov 20,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs" C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchLECDataMemory.sv 
-# -- Compiling module TestBenchLECDataMemory
-# 
-# Top level modules:
-# 	TestBenchLECDataMemory
-# End time: 21:57:24 on Nov 20,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.TestBenchLECDataMemory
-# Loading work.LECDataMemory1
-run
-# End time: 21:57:40 on Nov 20,2020, Elapsed time: 0:07:26
-# Errors: 0, Warnings: 0
+# End time: 20:19:30 on Nov 21,2020, Elapsed time: 0:07:37
+# Errors: 0, Warnings: 1

@@ -1,7 +1,7 @@
 module LECDataMemory1 #(parameter IMAGE_WIDTH=96,IMAGE_HEIGHT=96,PIX_SIZE=8)
 						(input logic CLK, 
 						input logic [15:0] Addr,
-						output logic [15:0] RD[15:0] ); //16 de 16bits 
+						output logic [15:0][15:0] RD); //16 de 16bits 
 						
 	
 	logic [7:0] memory1[IMAGE_WIDTH*IMAGE_HEIGHT-1:0];

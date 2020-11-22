@@ -6,7 +6,7 @@ module DataPath #(parameter N=16)(
     input logic [15:0][N-1:0] RDM,
     input logic [1:0] ForwardAE,
     input logic [1:0] ForwardBE,
-	input logic [1:0] RegSrc,
+	 input logic [1:0] RegSrc,
     output logic [31:0] PC,
     output logic [15:0][N-1:0] writeDataM,
     output logic MemWriteM,

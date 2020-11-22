@@ -2,8 +2,8 @@ module TestBenchWRDataMemory();
 
 	logic CLK, WE;
 	logic [15:0] A;
-	logic [15:0] WD [15:0];
-	logic [15:0] RD[15:0];
+	logic [15:0][15:0] WD ;
+	logic [15:0][15:0] RD;
 	logic [7:0] memory[80:0];
 
 	WRDataMemory #(9,9,8) MEM(CLK,WE, A, WD,RD);

@@ -1,8 +1,8 @@
 module WRDataMemory #(parameter IMAGE_WIDTH=120,IMAGE_HEIGHT=120,PIX_SIZE=8)
 						(input logic CLK, WE,
 						input logic [15:0] Addr,
-						input logic [15:0] WD[15:0],
-						output logic [15:0] RD[15:0]); //16 de 16bits 
+						input logic [15:0][15:0] WD,
+						output logic [15:0][15:0] RD); //16 de 16bits 
 						
 	
 	logic [7:0] memory[IMAGE_WIDTH*IMAGE_HEIGHT-1:0];

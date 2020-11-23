@@ -4,11 +4,12 @@ INSTRUCTIONS = {
     "mulv":{"code":"0000000000000011", "type":1},
 	"divv":{"code":"0000000000000100", "type":5},
     "cmpv":{"code":"0000000000000101", "type":5},
+    "dupl":{"code":"0000000000001111", "type":6},
 
 	"ldrv":{"code":"00000000000100010000", "type":2},
 	"strv":{"code":"00000000000100000000", "type":2},
     "movv":{"code":"0010100000", "type":3},
-    "repeat":{"code":"", "type":4},
+    "loop":{"code":"", "type":4},
 }
 
 OUTPUT=[]
@@ -23,7 +24,7 @@ def write_file():
     file = open("output.dat","w")
     text = ""
     for instruc in OUTPUT:
-        file.write(instruc+"\n")
+        file.write("0000"+instruc+"\n")
     file.close()
 
 def read_file():
@@ -38,7 +39,7 @@ def read_file():
     for line in file:
         linea=format_instruc(line)
         verify_instr(linea)
-        if(linea[0]=='repeat'):
+        if(linea[0]=='loop'):
             if(REPEAT_FLAG2):
                 repeat_cont2=int(linea[1])
                 amount2=int(linea[2])
@@ -108,9 +109,9 @@ def verify_instr(linea):
     instr=linea[0]
     instr = instr.lower()
     if instr in INSTRUCTIONS:
-        if(instr =='repeat' and REPEAT_FLAG):
+        if(instr =='loop' and REPEAT_FLAG):
             REPEAT_FLAG2=True
-        elif(instr =='repeat' ):
+        elif(instr =='loop' ):
             REPEAT_FLAG=True
         CURRENT_TYPE = INSTRUCTIONS.get(instr).get("type")
         CURRENT_CODE = INSTRUCTIONS.get(instr).get("code")
@@ -223,10 +224,9 @@ def fill_empty(opcode,hasImm,instr):
         pass
     elif CURRENT_TYPE==3 and hasImm:
         opcode= [opcode[2],opcode[0], opcode[1],'0000']
-    '''elif CURRENT_TYPE ==2 or CURRENT_TYPE ==7:
-        opcode.append('000000000000')
-        opcode =add_cond(opcode,hasImm,instr)
-    elif (CURRENT_TYPE ==3 or CURRENT_TYPE ==4 ) and not hasImm:
+    elif CURRENT_TYPE ==6:
+        opcode= [opcode[0],'0000', opcode[1],opcode[2]]
+        '''elif (CURRENT_TYPE ==3 or CURRENT_TYPE ==4 ) and not hasImm:
         opcode.append('0000000000000000')
         opcode =add_cond(opcode,hasImm,instr)
     elif CURRENT_TYPE ==5:

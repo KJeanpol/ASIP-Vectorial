@@ -24,7 +24,7 @@ module DataMemory #(parameter IMAGE_WIDTH=96,IMAGE_HEIGHT=96,PIX_SIZE=8)
 	LECDataMemory14 #(96,96,8) MEM14(CLK, Addr, RD14);
 	LECDataMemory15 #(96,96,8) MEM15(CLK, Addr, RD15);
 	LECDataMemory16 #(96,96,8) MEM16(CLK, Addr, RD16);
-	WRDataMemory #(120,120,8) WRMEM(CLK, WE, Addr, WD, RD17);
+	WRDataMemory #(192,192,8) WRMEM(CLK, WE, Addr, WD, RD17);
 	VecMux16_1 #(16,16) MUX(RD1,RD2,RD3,RD4,RD5,RD6,RD7,RD8,RD9,RD10,RD11,RD12,RD13,RD14,RD15,RD16,{s3,s2,s1,s0},RD); 
 	
 	

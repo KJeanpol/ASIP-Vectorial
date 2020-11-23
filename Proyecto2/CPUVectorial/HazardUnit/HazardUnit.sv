@@ -15,18 +15,18 @@ module HazardUnit(
     input logic MemtoRegE,
     output logic StallF,
     output logic StallD,
-    output logic FlushE,
-    output logic FlushD
+    output logic FlushE//,
+    //output logic FlushD
 );
 
 //Initial Values
 logic LDRstall = 0;
 //Forwarding SrcA
 always_comb
-  if((RA1E == WA3M) && RegWriteM) 
+  if((RA1E == WA3M) && RegWriteM && (RA1E != 4'b0)) 
     ForwardAE = 2'b10; // SrcAE = ALUOutM
     
-  else if ((RA1E == WA3W) && RegWriteW) 
+  else if ((RA1E == WA3W) && RegWriteW && (RA1E != 4'b0)) 
     ForwardAE = 2'b01; // SrcAE = ResultW
     
   else
@@ -34,10 +34,10 @@ always_comb
 
 //Forwarding SrcB
 always_comb
-  if((RA2E == WA3M) && RegWriteM) 
+  if((RA2E == WA3M) && RegWriteM && (RA2E != 4'b0)) 
     ForwardBE = 2'b10; // SrcBE = ALUOutM
     
-  else if ((RA2E == WA3W) && RegWriteW) 
+  else if ((RA2E == WA3W) && RegWriteW && (RA2E != 4'b0)) 
     ForwardBE = 2'b01; // SrcBE = ResultW
     
   else
@@ -45,11 +45,11 @@ always_comb
     
 //Stalling
 always_comb begin
-  LDRstall = (((RA1D == WA3E) || (RA2D == WA3E)) && MemtoRegE);
+  LDRstall = ((((RA1D == WA3E)&& (RA1D != 4'b0)) || ((RA2D == WA3E))&& (RA2D != 4'b0)) && MemtoRegE);
   StallF = LDRstall;
   StallD = LDRstall;
   FlushE = LDRstall;
-  FlushD = LDRstall;
+  //FlushD = LDRstall;
   end
   
 endmodule

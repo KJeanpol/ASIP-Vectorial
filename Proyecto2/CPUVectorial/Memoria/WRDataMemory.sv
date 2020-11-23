@@ -1,4 +1,4 @@
-module WRDataMemory #(parameter IMAGE_WIDTH=120,IMAGE_HEIGHT=120,PIX_SIZE=8)
+module WRDataMemory #(parameter IMAGE_WIDTH=192,IMAGE_HEIGHT=192,PIX_SIZE=8)
 						(input logic CLK, WE,
 						input logic [15:0] Addr,
 						input logic [15:0][15:0] WD,

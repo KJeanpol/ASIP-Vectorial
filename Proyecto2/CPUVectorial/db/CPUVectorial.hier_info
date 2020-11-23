@@ -1,4 +1,7 @@
-|ProyectMain
+|TestBenchProyectMain
+
+
+|TestBenchProyectMain|ProyectMain:MAIN
 CLK => CPUVEC:cpuVec.CLK
 CLK => DataMemory:DMEM.CLK
 reset => CPUVEC:cpuVec.RST
@@ -8,7 +11,7 @@ s1 => DataMemory:DMEM.s1
 s0 => DataMemory:DMEM.s0
 
 
-|ProyectMain|InstrMem:INSTRMEM
+|TestBenchProyectMain|ProyectMain:MAIN|InstrMem:INSTRMEM
 PC[0] => ~NO_FANOUT~
 PC[1] => ~NO_FANOUT~
 PC[2] => MEM.RADDR
@@ -71,7 +74,7 @@ Instr[26] <= MEM.DATAOUT26
 Instr[27] <= MEM.DATAOUT27
 
 
-|ProyectMain|CPUVEC:cpuVec
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec
 CLK => DataPath:datapath.CLK
 RST => DataPath:datapath.RST
 Instr[0] => DataPath:datapath.InstrF[0]
@@ -905,7 +908,7 @@ ALUResultM[15][14] <= DataPath:datapath.ALUResultM[15][14]
 ALUResultM[15][15] <= DataPath:datapath.ALUResultM[15][15]
 
 
-|ProyectMain|CPUVEC:cpuVec|ControlUnit:controlUnit
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|ControlUnit:controlUnit
 Instr[0] => ~NO_FANOUT~
 Instr[1] => ~NO_FANOUT~
 Instr[2] => ~NO_FANOUT~
@@ -938,7 +941,7 @@ ALUControl[1] <= Decoder:decoderUnit.port9
 ALUControl[2] <= Decoder:decoderUnit.port9
 
 
-|ProyectMain|CPUVEC:cpuVec|ControlUnit:controlUnit|Decoder:decoderUnit
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|ControlUnit:controlUnit|Decoder:decoderUnit
 Rd[0] => ~NO_FANOUT~
 Rd[1] => ~NO_FANOUT~
 Rd[2] => ~NO_FANOUT~
@@ -963,7 +966,7 @@ ALUControl[1] <= ALUDecoder:aluDecoder.port2
 ALUControl[2] <= ALUDecoder:aluDecoder.port2
 
 
-|ProyectMain|CPUVEC:cpuVec|ControlUnit:controlUnit|Decoder:decoderUnit|MainDecoder:mainDecoder
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|ControlUnit:controlUnit|Decoder:decoderUnit|MainDecoder:mainDecoder
 Op[0] => Decoder0.IN1
 Op[0] => Decoder1.IN1
 Op[0] => Decoder2.IN1
@@ -983,7 +986,7 @@ RegSrc[1] <= Decoder1.DB_MAX_OUTPUT_PORT_TYPE
 ALUOp <= Decoder2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|ControlUnit:controlUnit|Decoder:decoderUnit|ALUDecoder:aluDecoder
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|ControlUnit:controlUnit|Decoder:decoderUnit|ALUDecoder:aluDecoder
 ALUOp => Mux0.IN32
 ALUOp => Mux1.IN32
 ALUOp => Mux2.IN32
@@ -1015,7 +1018,7 @@ ALUControl[2] <= logicOutputs[3].DB_MAX_OUTPUT_PORT_TYPE
 SrcA <= logicOutputs[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath
 CLK => CLK.IN2
 RST => RST.IN1
 CLR2 => DecodePipe:decodePipe.reset
@@ -1927,7 +1930,7 @@ ALUResultM[15][14] <= ExecutePipe:executePipe.ALUResultW[15][14]
 ALUResultM[15][15] <= ExecutePipe:executePipe.ALUResultW[15][15]
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Fetch:fetch
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Fetch:fetch
 clk => clk.IN1
 rest => rest.IN1
 EN => EN.IN1
@@ -1965,7 +1968,7 @@ PC[30] <= n_bit_register:reg_pc.port4
 PC[31] <= n_bit_register:reg_pc.port4
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Fetch:fetch|n_bit_register:reg_pc
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Fetch:fetch|n_bit_register:reg_pc
 CLK => register[0].CLK
 CLK => register[1].CLK
 CLK => register[2].CLK
@@ -2128,7 +2131,7 @@ RD[30] <= register[30].DB_MAX_OUTPUT_PORT_TYPE
 RD[31] <= register[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|FetchPipe:fetchPipe
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|FetchPipe:fetchPipe
 dato[0] => Q.DATAB
 dato[1] => Q.DATAB
 dato[2] => Q.DATAB
@@ -2271,7 +2274,7 @@ Q[26] <= Q[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[27] <= Q[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Decode:decode
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Decode:decode
 clk => VecRegFile:registerFile.clk
 RST => VecRegFile:registerFile.reset
 RegWriteW => VecRegFile:registerFile.we3
@@ -3344,7 +3347,7 @@ ra2[2] <= n_bit_mux:ra2_mux.Q[2]
 ra2[3] <= n_bit_mux:ra2_mux.Q[3]
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Decode:decode|n_bit_mux:ra1_mux
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Decode:decode|n_bit_mux:ra1_mux
 I[0][0] => Q.DATAA
 I[0][1] => Q.DATAA
 I[0][2] => Q.DATAA
@@ -3360,7 +3363,7 @@ Q[2] <= Q.DB_MAX_OUTPUT_PORT_TYPE
 Q[3] <= Q.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Decode:decode|n_bit_mux:ra2_mux
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Decode:decode|n_bit_mux:ra2_mux
 I[0][0] => Q.DATAA
 I[0][1] => Q.DATAA
 I[0][2] => Q.DATAA
@@ -3376,7 +3379,7 @@ Q[2] <= Q.DB_MAX_OUTPUT_PORT_TYPE
 Q[3] <= Q.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Decode:decode|VecRegFile:registerFile
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Decode:decode|VecRegFile:registerFile
 clk => register_table[0][0][0].CLK
 clk => register_table[0][0][1].CLK
 clk => register_table[0][0][2].CLK
@@ -18232,7 +18235,7 @@ rd2[15][14] <= Mux257.DB_MAX_OUTPUT_PORT_TYPE
 rd2[15][15] <= Mux256.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Decode:decode|extendUnit:extend
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Decode:decode|extendUnit:extend
 immediate[0] => extended[15][0].DATAIN
 immediate[0] => extended[0][0].DATAIN
 immediate[0] => extended[1][0].DATAIN
@@ -18621,7 +18624,7 @@ extended[15][14] <= <GND>
 extended[15][15] <= <GND>
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|DecodePipe:decodePipe
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|DecodePipe:decodePipe
 rd1[0][0] => rd1o.DATAB
 rd1[0][1] => rd1o.DATAB
 rd1[0][2] => rd1o.DATAB
@@ -22564,7 +22567,7 @@ WA3O[2] <= WA3O[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 WA3O[3] <= WA3O[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute
 rd1E[0][0] => VecMux3_1:muxSrcA1.a[0][0]
 rd1E[0][1] => VecMux3_1:muxSrcA1.a[0][1]
 rd1E[0][2] => VecMux3_1:muxSrcA1.a[0][2]
@@ -24880,7 +24883,7 @@ AluResultE[15][14] <= VecALU:alu.Result[15][14]
 AluResultE[15][15] <= VecALU:alu.Result[15][15]
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux2_1:muxSrcB
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux2_1:muxSrcB
 a[0][0] => out.DATAA
 a[0][1] => out.DATAA
 a[0][2] => out.DATAA
@@ -25652,7 +25655,7 @@ out[15][14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15][15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux3_1:muxSrcA1
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux3_1:muxSrcA1
 a[0][0] => Selector255.IN5
 a[0][1] => Selector254.IN5
 a[0][2] => Selector253.IN5
@@ -26727,7 +26730,7 @@ out[15][14] <= Selector1.DB_MAX_OUTPUT_PORT_TYPE
 out[15][15] <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux3_1:muxWDE
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux3_1:muxWDE
 a[0][0] => Selector255.IN5
 a[0][1] => Selector254.IN5
 a[0][2] => Selector253.IN5
@@ -27802,7 +27805,7 @@ out[15][14] <= Selector1.DB_MAX_OUTPUT_PORT_TYPE
 out[15][15] <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux2_1:muxSrcA
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux2_1:muxSrcA
 a[0][0] => out.DATAA
 a[0][1] => out.DATAA
 a[0][2] => out.DATAA
@@ -28574,7 +28577,7 @@ out[15][14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15][15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu
 A[0][0] => A[0][0].IN1
 A[0][1] => A[0][1].IN1
 A[0][2] => A[0][2].IN1
@@ -29348,7 +29351,7 @@ Result[15][14] <= VecMux2_1:MUX.out[15][14]
 Result[15][15] <= VecMux2_1:MUX.out[15][15]
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu1
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu1
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -29519,7 +29522,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu2
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu2
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -29690,7 +29693,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu3
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu3
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -29861,7 +29864,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu4
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu4
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -30032,7 +30035,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu5
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu5
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -30203,7 +30206,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu6
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu6
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -30374,7 +30377,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu7
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu7
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -30545,7 +30548,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu8
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu8
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -30716,7 +30719,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu9
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu9
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -30887,7 +30890,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu10
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu10
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -31058,7 +31061,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu11
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu11
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -31229,7 +31232,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu12
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu12
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -31400,7 +31403,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu13
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu13
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -31571,7 +31574,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu14
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu14
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -31742,7 +31745,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu15
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu15
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -31913,7 +31916,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu16
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu16
 A[0] => Add0.IN8
 A[0] => Add1.IN16
 A[0] => Mult0.IN7
@@ -32084,7 +32087,7 @@ Result[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 Result[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|Duplex:dup
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|Duplex:dup
 A[0][0] => Result[1][0].DATAIN
 A[0][0] => Result[0][0].DATAIN
 A[0][1] => Result[1][1].DATAIN
@@ -32727,7 +32730,7 @@ Result[15][14] <= A[7][14].DB_MAX_OUTPUT_PORT_TYPE
 Result[15][15] <= A[7][15].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|VecMux2_1:MUX
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|VecMux2_1:MUX
 a[0][0] => out.DATAA
 a[0][1] => out.DATAA
 a[0][2] => out.DATAA
@@ -33499,7 +33502,7 @@ out[15][14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15][15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|ExecutePipe:executePipe
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|ExecutePipe:executePipe
 ALUResult[0][0] => ALUResultW.DATAB
 ALUResult[0][1] => ALUResultW.DATAB
 ALUResult[0][2] => ALUResultW.DATAB
@@ -36097,7 +36100,7 @@ MemtoRegW <= MemtoRegW~reg0.DB_MAX_OUTPUT_PORT_TYPE
 MemWriteW <= MemWriteW~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|WriteBackPipe:wbpipe
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|WriteBackPipe:wbpipe
 RD[0][0] => RDM.DATAB
 RD[0][1] => RDM.DATAB
 RD[0][2] => RDM.DATAB
@@ -38690,7 +38693,7 @@ ALUOutM[15][14] <= ALUOutM[15][14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 ALUOutM[15][15] <= ALUOutM[15][15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|WriteBack:writeback
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|WriteBack:writeback
 ALUOutW[0][0] => VecMux2_1:muxWB.a[0][0]
 ALUOutW[0][1] => VecMux2_1:muxWB.a[0][1]
 ALUOutW[0][2] => VecMux2_1:muxWB.a[0][2]
@@ -39462,7 +39465,7 @@ ResultW[15][14] <= VecMux2_1:muxWB.out[15][14]
 ResultW[15][15] <= VecMux2_1:muxWB.out[15][15]
 
 
-|ProyectMain|CPUVEC:cpuVec|DataPath:datapath|WriteBack:writeback|VecMux2_1:muxWB
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|WriteBack:writeback|VecMux2_1:muxWB
 a[0][0] => out.DATAA
 a[0][1] => out.DATAA
 a[0][2] => out.DATAA
@@ -40234,7 +40237,7 @@ out[15][14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15][15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|CPUVEC:cpuVec|HazardUnit:hazardunit
+|TestBenchProyectMain|ProyectMain:MAIN|CPUVEC:cpuVec|HazardUnit:hazardunit
 RA1E[0] => Equal0.IN3
 RA1E[0] => Equal1.IN3
 RA1E[1] => Equal0.IN2
@@ -40298,7 +40301,7 @@ FlushE <= LDRstall.DB_MAX_OUTPUT_PORT_TYPE
 FlushD <= LDRstall.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|DataMemory:DMEM
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM
 CLK => LECDataMemory1:MEM1.CLK
 CLK => LECDataMemory2:MEM2.CLK
 CLK => LECDataMemory3:MEM3.CLK
@@ -41107,7 +41110,7 @@ RD[15][14] <= VecMux16_1:MUX.out[15][14]
 RD[15][15] <= VecMux16_1:MUX.out[15][15]
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory1:MEM1
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory1:MEM1
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -41619,7 +41622,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory2:MEM2
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory2:MEM2
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -42131,7 +42134,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory3:MEM3
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory3:MEM3
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -42643,7 +42646,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory4:MEM4
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory4:MEM4
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -43155,7 +43158,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory5:MEM5
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory5:MEM5
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -43667,7 +43670,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory6:MEM6
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory6:MEM6
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -44179,7 +44182,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory7:MEM7
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory7:MEM7
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -44691,7 +44694,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory8:MEM8
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory8:MEM8
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -45203,7 +45206,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory9:MEM9
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory9:MEM9
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -45715,7 +45718,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory10:MEM10
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory10:MEM10
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -46227,7 +46230,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory11:MEM11
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory11:MEM11
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -46739,7 +46742,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory12:MEM12
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory12:MEM12
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -47251,7 +47254,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory13:MEM13
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory13:MEM13
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -47763,7 +47766,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory14:MEM14
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory14:MEM14
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -48275,7 +48278,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory15:MEM15
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory15:MEM15
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -48787,7 +48790,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|LECDataMemory16:MEM16
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory16:MEM16
 CLK => ~NO_FANOUT~
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
@@ -49299,7 +49302,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|WRDataMemory:WRMEM
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|WRDataMemory:WRMEM
 CLK => ~NO_FANOUT~
 WE => ~NO_FANOUT~
 Addr[0] => calcdir:CALC.Addr[0]
@@ -49832,7 +49835,7 @@ RD[15][14] <= <GND>
 RD[15][15] <= <GND>
 
 
-|ProyectMain|DataMemory:DMEM|WRDataMemory:WRMEM|calcdir:CALC
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|WRDataMemory:WRMEM|calcdir:CALC
 Addr[0] => Add0.IN32
 Addr[0] => Add2.IN32
 Addr[0] => Add4.IN32
@@ -50347,7 +50350,7 @@ outAddr[15][14] <= Add14.DB_MAX_OUTPUT_PORT_TYPE
 outAddr[15][15] <= Add14.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProyectMain|DataMemory:DMEM|VecMux16_1:MUX
+|TestBenchProyectMain|ProyectMain:MAIN|DataMemory:DMEM|VecMux16_1:MUX
 dat1[0][0] => Mux255.IN0
 dat1[0][1] => Mux254.IN0
 dat1[0][2] => Mux253.IN0

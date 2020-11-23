@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA4U23C6
-set_global_assignment -name TOP_LEVEL_ENTITY ProyectMain
+set_global_assignment -name TOP_LEVEL_ENTITY TestBenchProyectMain
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.0.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:02:36  SEPTEMBER 14, 2015"
 set_global_assignment -name LAST_QUARTUS_VERSION "20.1.0 Lite Edition"
@@ -241,6 +241,7 @@ set_global_assignment -name SYSTEMVERILOG_FILE Componentes/VecMux16_1.sv
 set_global_assignment -name SYSTEMVERILOG_FILE TestBenchs/TestBenchDataMemory.sv
 set_global_assignment -name SYSTEMVERILOG_FILE CPUVEC.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ProyectMain.sv
+set_global_assignment -name SYSTEMVERILOG_FILE TestBenchs/TestBenchProyectMain.sv
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

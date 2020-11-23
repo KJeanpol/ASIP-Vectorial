@@ -11,7 +11,7 @@ cModel Technology
 Z0 dC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/simulation/modelsim
 vALUDecoder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1606103712
+Z2 !s110 1606165711
 !i10b 1
 !s100 16F9_akTjHmgGXHLO9Aj50
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,13 +22,13 @@ R0
 w1605815761
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit/ALUDecoder.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit/ALUDecoder.sv
-!i122 48
+!i122 20
 L0 1 47
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1606103712.000000
+Z6 !s108 1606165711.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit/ALUDecoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit/ALUDecoder.sv|
 !i113 1
@@ -38,7 +38,7 @@ Z9 tCvgOpt 0
 n@a@l@u@decoder
 vcalcdir
 R1
-R2
+Z10 !s110 1606165713
 !i10b 1
 !s100 69VAh?f3jL7G913Wea3a;3
 R3
@@ -49,22 +49,22 @@ R0
 w1605927444
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/calcdir.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/calcdir.sv
-!i122 49
+!i122 25
 L0 1 21
 R5
 r1
 !s85 0
 31
-R6
+Z11 !s108 1606165713.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/calcdir.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/calcdir.sv|
 !i113 1
 R7
-Z10 !s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria
+Z12 !s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria
 R9
 vControlUnit
 R1
-R2
+Z13 !s110 1606165712
 !i10b 1
 !s100 @oIJF@CCZgWjfQNfM5jMU1
 R3
@@ -75,7 +75,7 @@ R0
 w1605325536
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit/ControlUnit.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit/ControlUnit.sv
-!i122 50
+!i122 21
 L0 1 10
 R5
 r1
@@ -91,7 +91,7 @@ R9
 n@control@unit
 vCPUVEC
 R1
-R2
+R10
 !i10b 1
 !s100 >ME9L0U=B:3M:o?Qe87[n2
 R3
@@ -102,23 +102,23 @@ R0
 w1606012433
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/CPUVEC.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/CPUVEC.sv
-!i122 51
-Z11 L0 1 27
+!i122 27
+Z14 L0 1 27
 R5
 r1
 !s85 0
 31
-R6
+R11
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/CPUVEC.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/CPUVEC.sv|
 !i113 1
 R7
-Z12 !s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial
+Z15 !s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial
 R9
 n@c@p@u@v@e@c
 vDataMemory
 R1
-Z13 !s110 1606103713
+R13
 !i10b 1
 !s100 >gA]NWLYoKZ2h`d0N]8AR0
 R3
@@ -129,23 +129,23 @@ R0
 w1606103639
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv
-!i122 52
+!i122 22
 L0 1 33
 R5
 r1
 !s85 0
 31
-R6
+Z16 !s108 1606165712.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@data@memory
 vDataPath
 R1
-R13
+Z17 !s110 1606165710
 !i10b 1
 !s100 A>P9D8?PdR80=dF8PA4B50
 R3
@@ -156,13 +156,13 @@ R0
 w1606012097
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/DataPath.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/DataPath.sv
-!i122 53
+!i122 16
 L0 1 52
 R5
 r1
 !s85 0
 31
-Z14 !s108 1606103713.000000
+Z18 !s108 1606165710.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/DataPath.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/DataPath.sv|
 !i113 1
@@ -172,7 +172,7 @@ R9
 n@data@path
 vDecode
 R1
-R13
+Z19 !s110 1606165707
 !i10b 1
 !s100 QmkeFXfZ>AdW9ZN5HO@Qo0
 R3
@@ -183,23 +183,23 @@ R0
 w1605840823
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Decode/Decode.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Decode/Decode.sv
-!i122 54
-Z15 L0 1 23
+!i122 8
+Z20 L0 1 23
 R5
 r1
 !s85 0
 31
-R14
+Z21 !s108 1606165707.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Decode/Decode.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Decode|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Decode/Decode.sv|
 !i113 1
 R7
-Z16 !s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Decode
+Z22 !s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Decode
 R9
 n@decode
 vDecodePipe
 R1
-R13
+Z23 !s110 1606165706
 !i10b 1
 !s100 1VH;]>1zL6:;KX`VQz1HE3
 R3
@@ -210,23 +210,23 @@ R0
 w1605840671
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/DecodePipe.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/DecodePipe.sv
-!i122 55
+!i122 5
 L0 1 99
 R5
 r1
 !s85 0
 31
-R14
+Z24 !s108 1606165706.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/DecodePipe.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/DecodePipe.sv|
 !i113 1
 R7
-Z17 !s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes
+Z25 !s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes
 R9
 n@decode@pipe
 vDecoder
 R1
-Z18 !s110 1606103714
+R2
 !i10b 1
 !s100 VYL9N>bC^DZ48@ThZM=CP0
 R3
@@ -237,13 +237,13 @@ R0
 w1605324822
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit/Decoder.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit/Decoder.sv
-!i122 56
-Z19 L0 1 22
+!i122 19
+Z26 L0 1 22
 R5
 r1
 !s85 0
 31
-R14
+R6
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit/Decoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit/Decoder.sv|
 !i113 1
@@ -253,7 +253,7 @@ R9
 n@decoder
 vDuplex
 R1
-R18
+R13
 !i10b 1
 !s100 ;dG8gm3nChiW`>]aYOIC63
 R3
@@ -264,23 +264,23 @@ R0
 w1605842127
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/Duplex.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/Duplex.sv
-!i122 57
-Z20 L0 1 24
+!i122 23
+Z27 L0 1 24
 R5
 r1
 !s85 0
 31
-Z21 !s108 1606103714.000000
+R16
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/Duplex.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/Duplex.sv|
 !i113 1
 R7
-Z22 !s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU
+Z28 !s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU
 R9
 n@duplex
 vExecute
 R1
-R18
+Z29 !s110 1606165709
 !i10b 1
 !s100 9@L]`Iigc>Boff>gjC>682
 R3
@@ -291,13 +291,13 @@ R0
 w1605841186
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/Execute.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/Execute.sv
-!i122 58
+!i122 13
 L0 1 34
 R5
 r1
 !s85 0
 31
-R21
+Z30 !s108 1606165709.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/Execute.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/Execute.sv|
 !i113 1
@@ -307,7 +307,7 @@ R9
 n@execute
 vExecutePipe
 R1
-R18
+R17
 !i10b 1
 !s100 37M=]O>D35HfnQ_Kle>Ca3
 R3
@@ -318,23 +318,23 @@ R0
 w1605841283
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/ExecutePipe.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/ExecutePipe.sv
-!i122 59
+!i122 15
 L0 1 48
 R5
 r1
 !s85 0
 31
-R21
+R30
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/ExecutePipe.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/ExecutePipe.sv|
 !i113 1
 R7
-R17
+R25
 R9
 n@execute@pipe
 vextendUnit
 R1
-Z23 !s110 1606103715
+Z31 !s110 1606165708
 !i10b 1
 !s100 mRfoOaHL^iVmhezmCc1c63
 R3
@@ -345,23 +345,23 @@ R0
 w1605840949
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/extendUnit.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/extendUnit.sv
-!i122 60
-R20
+!i122 9
+R27
 R5
 r1
 !s85 0
 31
-R21
+Z32 !s108 1606165708.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/extendUnit.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/extendUnit.sv|
 !i113 1
 R7
-Z24 !s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes
+Z33 !s92 -sv -work work +incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes
 R9
 nextend@unit
 vFetch
 R1
-R23
+!s110 1606165705
 !i10b 1
 !s100 8lF5UM=G`NXXd;MCR`F>S0
 R3
@@ -372,13 +372,13 @@ R0
 w1604709075
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Fetch/Fetch.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Fetch/Fetch.sv
-!i122 61
+!i122 1
 L0 1 15
 R5
 r1
 !s85 0
 31
-Z25 !s108 1606103715.000000
+Z34 !s108 1606165705.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Fetch/Fetch.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Fetch|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Fetch/Fetch.sv|
 !i113 1
@@ -399,40 +399,40 @@ R0
 w1604712835
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/FetchPipe.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/FetchPipe.sv
-!i122 62
-Z26 L0 1 11
+!i122 4
+Z35 L0 1 11
 R5
 r1
 !s85 0
 31
-R25
+R24
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/FetchPipe.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/FetchPipe.sv|
 !i113 1
 R7
-R17
+R25
 R9
 n@fetch@pipe
 vHazardUnit
 R1
-R23
+!s110 1606169576
 !i10b 1
-!s100 _JERGoHB8aHYMV5;oET?D3
+!s100 6Q9_7UgNb6leFhD1LTP[V3
 R3
-I<_hdO@U?_BP8N4j7h_Z;]2
+IZDMKHWRI4J>G1aNgg_Z;V2
 R4
 S1
 R0
-w1606102157
+w1606169566
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv
-!i122 63
+!i122 51
 L0 1 55
 R5
 r1
 !s85 0
 31
-R25
+!s108 1606169576.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/HazardUnit/HazardUnit.sv|
 !i113 1
@@ -442,7 +442,7 @@ R9
 n@hazard@unit
 vInstrMem
 R1
-Z27 !s110 1606103716
+Z36 !s110 1606165715
 !i10b 1
 !s100 3PnXG;Akg:IJYlj4I0iM[2
 R3
@@ -453,23 +453,23 @@ R0
 w1605842102
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/InstrMem.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/InstrMem.sv
-!i122 64
+!i122 31
 L0 1 14
 R5
 r1
 !s85 0
 31
-R25
+Z37 !s108 1606165714.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/InstrMem.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/InstrMem.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@instr@mem
 vLECDataMemory1
 R1
-R27
+Z38 !s110 1606165714
 !i10b 1
 !s100 92LNhO=AiWZQ]JV@6WWjC0
 R3
@@ -480,23 +480,23 @@ R0
 w1606006853
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv
-!i122 65
-Z28 L0 1 42
+!i122 30
+Z39 L0 1 42
 R5
 r1
 !s85 0
 31
-Z29 !s108 1606103716.000000
+R37
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory1
 vLECDataMemory10
 R1
-R27
+Z40 !s110 1606165717
 !i10b 1
 !s100 @[lOJUL_J6f@97KW49E;z0
 R3
@@ -507,23 +507,23 @@ R0
 w1606006706
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory10.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory10.sv
-!i122 66
-R28
+!i122 40
+R39
 R5
 r1
 !s85 0
 31
-R29
+Z41 !s108 1606165717.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory10.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory10.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory10
 vLECDataMemory11
 R1
-R27
+R40
 !i10b 1
 !s100 195BDz<>IZ35J^UUR;83S0
 R3
@@ -534,23 +534,23 @@ R0
 w1606006500
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory11.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory11.sv
-!i122 67
-R28
+!i122 41
+R39
 R5
 r1
 !s85 0
 31
-R29
+R41
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory11.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory11.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory11
 vLECDataMemory12
 R1
-Z30 !s110 1606103717
+Z42 !s110 1606165718
 !i10b 1
 !s100 OWbzebMJ4C7JTMfcUVAX?3
 R3
@@ -561,23 +561,23 @@ R0
 w1606006472
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory12.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory12.sv
-!i122 68
-R28
+!i122 42
+R39
 R5
 r1
 !s85 0
 31
-R29
+R41
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory12.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory12.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory12
 vLECDataMemory13
 R1
-R30
+R42
 !i10b 1
 !s100 Jj@C[1_aVjgV1G8@47KVQ1
 R3
@@ -588,23 +588,23 @@ R0
 w1606006450
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory13.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory13.sv
-!i122 69
-R28
+!i122 43
+R39
 R5
 r1
 !s85 0
 31
-Z31 !s108 1606103717.000000
+Z43 !s108 1606165718.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory13.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory13.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory13
 vLECDataMemory14
 R1
-R30
+R42
 !i10b 1
 !s100 8ABKai1l?TkUmCO:UH4[]1
 R3
@@ -615,23 +615,23 @@ R0
 w1606006431
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory14.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory14.sv
-!i122 70
-R28
+!i122 44
+R39
 R5
 r1
 !s85 0
 31
-R31
+R43
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory14.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory14.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory14
 vLECDataMemory15
 R1
-R30
+Z44 !s110 1606165719
 !i10b 1
 !s100 MW_;HmMcGU=SX?82EMUZ^3
 R3
@@ -642,23 +642,23 @@ R0
 w1606006421
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory15.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory15.sv
-!i122 71
-R28
+!i122 45
+R39
 R5
 r1
 !s85 0
 31
-R31
+R43
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory15.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory15.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory15
 vLECDataMemory16
 R1
-Z32 !s110 1606103718
+R44
 !i10b 1
 !s100 >mcWOFe?>gQLbSZPgkl852
 R3
@@ -669,23 +669,23 @@ R0
 w1606006372
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory16.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory16.sv
-!i122 72
-R28
+!i122 46
+R39
 R5
 r1
 !s85 0
 31
-R31
+!s108 1606165719.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory16.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory16.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory16
 vLECDataMemory2
 R1
-R32
+R36
 !i10b 1
 !s100 bi[ziaF6OeKGj]2iUch^C3
 R3
@@ -696,23 +696,23 @@ R0
 w1606005090
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory2.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory2.sv
-!i122 73
-R28
+!i122 32
+R39
 R5
 r1
 !s85 0
 31
-Z33 !s108 1606103718.000000
+Z45 !s108 1606165715.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory2.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory2.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory2
 vLECDataMemory3
 R1
-R32
+R36
 !i10b 1
 !s100 k0]aIS90nN5L^gWJHISWA0
 R3
@@ -723,23 +723,23 @@ R0
 w1606006827
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory3.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory3.sv
-!i122 74
-R28
+!i122 33
+R39
 R5
 r1
 !s85 0
 31
-R33
+R45
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory3.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory3.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory3
 vLECDataMemory4
 R1
-R32
+R36
 !i10b 1
 !s100 D1K<9hIFOP`]:oJYbVHaY1
 R3
@@ -750,23 +750,23 @@ R0
 w1606006816
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory4.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory4.sv
-!i122 75
-R28
+!i122 34
+R39
 R5
 r1
 !s85 0
 31
-R33
+R45
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory4.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory4.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory4
 vLECDataMemory5
 R1
-R32
+Z46 !s110 1606165716
 !i10b 1
 !s100 SclmBik8XA0R^7FdW^R>@3
 R3
@@ -777,23 +777,23 @@ R0
 w1606006800
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory5.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory5.sv
-!i122 76
-R28
+!i122 35
+R39
 R5
 r1
 !s85 0
 31
-R33
+R45
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory5.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory5.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory5
 vLECDataMemory6
 R1
-Z34 !s110 1606103719
+R46
 !i10b 1
 !s100 aW;ENUGW7Z^B[@j;O<TCe0
 R3
@@ -804,23 +804,23 @@ R0
 w1606006789
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory6.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory6.sv
-!i122 77
-R28
+!i122 36
+R39
 R5
 r1
 !s85 0
 31
-Z35 !s108 1606103719.000000
+Z47 !s108 1606165716.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory6.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory6.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory6
 vLECDataMemory7
 R1
-R34
+R46
 !i10b 1
 !s100 S81knV`1FGf1>Q6i`c=_A1
 R3
@@ -831,23 +831,23 @@ R0
 w1606006772
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory7.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory7.sv
-!i122 78
-R28
+!i122 37
+R39
 R5
 r1
 !s85 0
 31
-R35
+R47
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory7.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory7.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory7
 vLECDataMemory8
 R1
-R34
+R40
 !i10b 1
 !s100 g<DT;5aUz8Cazkm9DG<MR3
 R3
@@ -858,23 +858,23 @@ R0
 w1606006760
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory8.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory8.sv
-!i122 79
-R28
+!i122 38
+R39
 R5
 r1
 !s85 0
 31
-R35
+R47
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory8.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory8.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory8
 vLECDataMemory9
 R1
-R34
+R40
 !i10b 1
 !s100 cc`WIX9=KNbQYPXMY0Ihk1
 R3
@@ -885,23 +885,23 @@ R0
 w1606006733
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory9.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory9.sv
-!i122 80
-R28
+!i122 39
+R39
 R5
 r1
 !s85 0
 31
-R35
+R41
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory9.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory9.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@l@e@c@data@memory9
 vMainDecoder
 R1
-Z36 !s110 1606103720
+R2
 !i10b 1
 !s100 7L?WlGN:SDchhlP:3NEZk2
 R3
@@ -912,13 +912,13 @@ R0
 w1605820448
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit/MainDecoder.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit/MainDecoder.sv
-!i122 81
+!i122 18
 L0 1 29
 R5
 r1
 !s85 0
 31
-Z37 !s108 1606103720.000000
+R18
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit/MainDecoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Control-Unit/MainDecoder.sv|
 !i113 1
@@ -928,7 +928,7 @@ R9
 n@main@decoder
 vn_bit_mux
 R1
-R36
+R19
 !i10b 1
 !s100 ?gUfJB8O^5360;hh82KQP1
 R3
@@ -939,22 +939,22 @@ R0
 w1605299337
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/n_bit_mux.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/n_bit_mux.sv
-!i122 82
-R26
+!i122 7
+R35
 R5
 r1
 !s85 0
 31
-R37
+R21
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/n_bit_mux.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/n_bit_mux.sv|
 !i113 1
 R7
-R24
+R33
 R9
 vn_bit_register
 R1
-R36
+!s110 1606165704
 !i10b 1
 !s100 V:XX2;@h:h2<HdQ8f;7WT2
 R3
@@ -965,22 +965,22 @@ R0
 w1604708615
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/n_bit_register.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/n_bit_register.sv
-!i122 83
-R11
+!i122 0
+R14
 R5
 r1
 !s85 0
 31
-R37
+!s108 1606165704.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/n_bit_register.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/n_bit_register.sv|
 !i113 1
 R7
-R24
+R33
 R9
 vProyectMain
 R1
-R36
+R38
 !i10b 1
 !s100 WT<V61hoYk^0A[ck^m1O41
 R3
@@ -991,23 +991,23 @@ R0
 w1606013459
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/ProyectMain.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/ProyectMain.sv
-!i122 84
-R19
+!i122 28
+R26
 R5
 r1
 !s85 0
 31
-R37
+R11
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/ProyectMain.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/ProyectMain.sv|
 !i113 1
 R7
-R12
+R15
 R9
 n@proyect@main
 vScalarALU
 R1
-Z38 !s110 1606103721
+R23
 !i10b 1
 !s100 4QBY9DPdbe]5ED[@G2Q8?0
 R3
@@ -1018,18 +1018,18 @@ R0
 w1605931165
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv
-!i122 85
+!i122 2
 L0 1 16
 R5
 r1
 !s85 0
 31
-Z39 !s108 1606103721.000000
+R34
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/ScalarALU.sv|
 !i113 1
 R7
-R22
+R28
 R9
 n@scalar@a@l@u
 vTestBenchProyectMain
@@ -1045,13 +1045,13 @@ R0
 w1606090581
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchProyectMain.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchProyectMain.sv
-!i122 86
-R15
+!i122 29
+R20
 R5
 r1
 !s85 0
 31
-R39
+R37
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchProyectMain.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchProyectMain.sv|
 !i113 1
@@ -1061,34 +1061,34 @@ R9
 n@test@bench@proyect@main
 vVecALU
 R1
-R38
+!s110 1606165823
 !i10b 1
-!s100 g9hYeY?YFCK[Z<AeDN=cG1
+!s100 <[ABzgD9P[HZRIWR>nDZO3
 R3
-IVo5CA3_UJkcRT8]Bl<5H^2
+IcARQP^YT93KfTNzYI^5ZF1
 R4
 S1
 R0
-w1605910405
+w1606165808
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv
-!i122 87
+!i122 47
 L0 1 41
 R5
 r1
 !s85 0
 31
-R39
+!s108 1606165823.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Execute/ALU/VecALU.sv|
 !i113 1
 R7
-R22
+R28
 R9
 n@vec@a@l@u
 vVecMux16_1
 R1
-R38
+R10
 !i10b 1
 !s100 fhg[__?>fbfoF`X^>9I>Q2
 R3
@@ -1099,23 +1099,23 @@ R0
 w1606006097
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux16_1.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux16_1.sv
-!i122 88
+!i122 26
 L0 1 28
 R5
 r1
 !s85 0
 31
-R39
+R11
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux16_1.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux16_1.sv|
 !i113 1
 R7
-R24
+R33
 R9
 n@vec@mux16_1
 vVecMux2_1
 R1
-Z40 !s110 1606103722
+R29
 !i10b 1
 !s100 `;<FPVKYX>z2ZD_FV>e]?3
 R3
@@ -1126,50 +1126,50 @@ R0
 w1605841116
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux2_1.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux2_1.sv
-!i122 89
+!i122 12
 L0 1 13
 R5
 r1
 !s85 0
 31
-Z41 !s108 1606103722.000000
+R32
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux2_1.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux2_1.sv|
 !i113 1
 R7
-R24
+R33
 R9
 n@vec@mux2_1
 vVecMux3_1
 R1
-R40
+!s110 1606169225
 !i10b 1
-!s100 BNknC]DYdK<5?`nDFZcAC1
+!s100 T84<Kg;JLomz2gC66[g882
 R3
-I_:iOlgZU95i90c2j=_:Bi2
+I_J42:QI<2o5bIN6XgA78a0
 R4
 S1
 R0
-w1605841106
+w1606169197
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux3_1.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux3_1.sv
-!i122 90
+!i122 49
 L0 1 17
 R5
 r1
 !s85 0
 31
-R41
+!s108 1606169225.000000
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux3_1.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Componentes/VecMux3_1.sv|
 !i113 1
 R7
-R24
+R33
 R9
 n@vec@mux3_1
 vVecRegFile
 R1
-R40
+R31
 !i10b 1
 !s100 CWEJiN`h:G:FRzQ1hQ2D10
 R3
@@ -1180,23 +1180,23 @@ R0
 w1605841072
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Decode/VecRegFile.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Decode/VecRegFile.sv
-!i122 91
+!i122 10
 L0 1 25
 R5
 r1
 !s85 0
 31
-R41
+R32
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Decode/VecRegFile.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Decode|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/Decode/VecRegFile.sv|
 !i113 1
 R7
-R16
+R22
 R9
 n@vec@reg@file
 vWRDataMemory
 R1
-R40
+R13
 !i10b 1
 !s100 bATifNObAda:=;2WBJ6^_1
 R3
@@ -1207,23 +1207,23 @@ R0
 w1606103570
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/WRDataMemory.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/WRDataMemory.sv
-!i122 92
+!i122 24
 L0 1 57
 R5
 r1
 !s85 0
 31
-R41
+R16
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/WRDataMemory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/WRDataMemory.sv|
 !i113 1
 R7
-R10
+R12
 R9
 n@w@r@data@memory
 vWriteBack
 R1
-Z42 !s110 1606103723
+R29
 !i10b 1
 !s100 UVH]7QYO9Id8oAFcF^KPA1
 R3
@@ -1234,13 +1234,13 @@ R0
 w1605841247
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/WriteBack/WriteBack.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/WriteBack/WriteBack.sv
-!i122 93
+!i122 14
 L0 1 8
 R5
 r1
 !s85 0
 31
-Z43 !s108 1606103723.000000
+R30
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/WriteBack/WriteBack.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/WriteBack|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Datapath/WriteBack/WriteBack.sv|
 !i113 1
@@ -1250,7 +1250,7 @@ R9
 n@write@back
 vWriteBackPipe
 R1
-R42
+R19
 !i10b 1
 !s100 e_Lm5oV]VB]T:n:I:jbZ63
 R3
@@ -1261,17 +1261,17 @@ R0
 w1605840725
 8C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/WriteBackPipe.sv
 FC:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/WriteBackPipe.sv
-!i122 94
+!i122 6
 L0 1 63
 R5
 r1
 !s85 0
 31
-R43
+R21
 !s107 C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/WriteBackPipe.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes|C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Pipes/WriteBackPipe.sv|
 !i113 1
 R7
-R17
+R25
 R9
 n@write@back@pipe

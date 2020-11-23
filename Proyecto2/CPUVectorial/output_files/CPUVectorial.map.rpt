@@ -1,5 +1,5 @@
 Analysis & Elaboration report for CPUVectorial
-Sun Nov 22 18:18:00 2020
+Mon Nov 23 15:07:57 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -70,35 +70,34 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
  62. Analysis & Elaboration Settings
  63. Port Connectivity Checks: "ProyectMain:MAIN|DataMemory:DMEM|WRDataMemory:WRMEM|calcdir:CALC"
  64. Port Connectivity Checks: "ProyectMain:MAIN|DataMemory:DMEM|WRDataMemory:WRMEM"
- 65. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|HazardUnit:hazardunit"
- 66. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|WriteBackPipe:wbpipe"
- 67. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|ExecutePipe:executePipe"
- 68. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu16"
- 69. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu15"
- 70. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu14"
- 71. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu13"
- 72. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu12"
- 73. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu11"
- 74. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu10"
- 75. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu9"
- 76. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu8"
- 77. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu7"
- 78. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu6"
- 79. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu5"
- 80. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu4"
- 81. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu3"
- 82. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu2"
- 83. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu1"
- 84. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux2_1:muxSrcA"
- 85. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux3_1:muxWDE"
- 86. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux3_1:muxSrcA1"
- 87. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|DecodePipe:decodePipe"
- 88. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Decode:decode|n_bit_mux:ra1_mux"
- 89. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|FetchPipe:fetchPipe"
- 90. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath"
- 91. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec"
- 92. Analysis & Elaboration Messages
- 93. Analysis & Elaboration Suppressed Messages
+ 65. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|WriteBackPipe:wbpipe"
+ 66. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|ExecutePipe:executePipe"
+ 67. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu16"
+ 68. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu15"
+ 69. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu14"
+ 70. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu13"
+ 71. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu12"
+ 72. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu11"
+ 73. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu10"
+ 74. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu9"
+ 75. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu8"
+ 76. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu7"
+ 77. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu6"
+ 78. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu5"
+ 79. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu4"
+ 80. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu3"
+ 81. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu2"
+ 82. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu1"
+ 83. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux2_1:muxSrcA"
+ 84. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux3_1:muxWDE"
+ 85. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux3_1:muxSrcA1"
+ 86. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|DecodePipe:decodePipe"
+ 87. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Decode:decode|n_bit_mux:ra1_mux"
+ 88. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|FetchPipe:fetchPipe"
+ 89. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath"
+ 90. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec"
+ 91. Analysis & Elaboration Messages
+ 92. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -125,7 +124,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Sun Nov 22 18:18:00 2020       ;
+; Analysis & Elaboration Status ; Successful - Mon Nov 23 15:07:57 2020       ;
 ; Quartus Prime Version         ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                 ; CPUVectorial                                ;
 ; Top-level Entity Name         ; TestBenchProyectMain                        ;
@@ -765,8 +764,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                    ;
 +----------------+-------+-------------------------------------------------------------------------+
-; IMAGE_WIDTH    ; 120   ; Signed Integer                                                          ;
-; IMAGE_HEIGHT   ; 120   ; Signed Integer                                                          ;
+; IMAGE_WIDTH    ; 192   ; Signed Integer                                                          ;
+; IMAGE_HEIGHT   ; 192   ; Signed Integer                                                          ;
 ; PIX_SIZE       ; 8     ; Signed Integer                                                          ;
 +----------------+-------+-------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
@@ -886,15 +885,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+--------+----------+-------------------------------------------------------------------------------------+
 ; RD   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|HazardUnit:hazardunit"                                                      ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                  ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; FlushD ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------+
@@ -1171,7 +1161,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Sun Nov 22 18:17:02 2020
+    Info: Processing started: Mon Nov 23 15:04:12 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPUVectorial -c CPUVectorial --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -1287,7 +1277,7 @@ Info (12127): Elaborating entity "TestBenchProyectMain" for the top level hierar
 Warning (10755): Verilog HDL warning at TestBenchProyectMain.sv(19): assignments to clk create a combinational loop File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchProyectMain.sv Line: 19
 Info (12128): Elaborating entity "ProyectMain" for hierarchy "ProyectMain:MAIN" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchProyectMain.sv Line: 5
 Info (12128): Elaborating entity "InstrMem" for hierarchy "ProyectMain:MAIN|InstrMem:INSTRMEM" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/ProyectMain.sv Line: 13
-Warning (10850): Verilog HDL warning at InstrMem.sv(9): number of words (3) in memory file does not match the number of elements in the address range [0:100] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/InstrMem.sv Line: 9
+Warning (10850): Verilog HDL warning at InstrMem.sv(9): number of words (310) in memory file does not match the number of elements in the address range [0:100] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/InstrMem.sv Line: 9
 Warning (10230): Verilog HDL assignment warning at InstrMem.sv(11): truncated value with size 32 to match size of target (28) File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/InstrMem.sv Line: 11
 Warning (10030): Net "MEM.data_a" at InstrMem.sv(5) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/InstrMem.sv Line: 5
 Warning (10030): Net "MEM.waddr_a" at InstrMem.sv(5) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/InstrMem.sv Line: 5
@@ -1395,13 +1385,13 @@ Info (12128): Elaborating entity "calcdir" for hierarchy "ProyectMain:MAIN|DataM
 Info (12128): Elaborating entity "VecMux16_1" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|VecMux16_1:MUX" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 28
 Warning (12011): Net is missing source, defaulting to GND
     Warning (12110): Net "clk" is missing source, defaulting to GND File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchProyectMain.sv Line: 2
-Warning (12241): 17 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (12241): 16 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/output_files/CPUVectorial.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 62 warnings
-    Info: Peak virtual memory: 6179 megabytes
-    Info: Processing ended: Sun Nov 22 18:18:01 2020
-    Info: Elapsed time: 00:00:59
-    Info: Total CPU time (on all processors): 00:01:29
+    Info: Peak virtual memory: 9527 megabytes
+    Info: Processing ended: Mon Nov 23 15:07:57 2020
+    Info: Elapsed time: 00:03:45
+    Info: Total CPU time (on all processors): 00:04:14
 
 
 +--------------------------------------------+

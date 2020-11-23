@@ -23,10 +23,10 @@ module HazardUnit(
 logic LDRstall = 0;
 //Forwarding SrcA
 always_comb
-  if((RA1E == WA3M) && RegWriteM && (RA1E != 4'b0)) 
+  if((RA1E == WA3M) && RegWriteM) 
     ForwardAE = 2'b10; // SrcAE = ALUOutM
     
-  else if ((RA1E == WA3W) && RegWriteW && (RA1E != 4'b0)) 
+  else if ((RA1E == WA3W) && RegWriteW) 
     ForwardAE = 2'b01; // SrcAE = ResultW
     
   else
@@ -34,10 +34,10 @@ always_comb
 
 //Forwarding SrcB
 always_comb
-  if((RA2E == WA3M) && RegWriteM && (RA2E != 4'b0)) 
+  if((RA2E == WA3M) && RegWriteM) 
     ForwardBE = 2'b10; // SrcBE = ALUOutM
     
-  else if ((RA2E == WA3W) && RegWriteW && (RA2E != 4'b0)) 
+  else if ((RA2E == WA3W) && RegWriteW) 
     ForwardBE = 2'b01; // SrcBE = ResultW
     
   else
@@ -45,7 +45,7 @@ always_comb
     
 //Stalling
 always_comb begin
-  LDRstall = ((((RA1D == WA3E)&& (RA1D != 4'b0)) || ((RA2D == WA3E))&& (RA2D != 4'b0)) && MemtoRegE);
+  LDRstall = (((RA1D == WA3E) || (RA2D == WA3E)) && MemtoRegE);
   StallF = LDRstall;
   StallD = LDRstall;
   FlushE = LDRstall;

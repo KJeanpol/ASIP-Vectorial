@@ -5,7 +5,7 @@ IMAGE=None
 COLS=0
 PIXELS=[]
 
-def main(image_name, maxSize=65536):
+def main(image_name, maxSize=152100): #maxsize = 390x390 = 152100
   global IMAGE,COLS,PIXELS
   width = 8 #int(input("Row width in bits to store in mem:"))
   
@@ -19,31 +19,87 @@ def main(image_name, maxSize=65536):
   #Create mif file
   mif_name1 = image_name.split('.')[0] + '1.mif'
   mif_file1 = open(mif_name1, 'w+')
-  pixel_Index=input_lines(mif_file1,0,width)
+  pixel_Index=input_lines(mif_file1,0,width,maxSize)
 
   if(pixel_Index<imageSize):
     mif_name2 = image_name.split('.')[0] + '2.mif'
     mif_file2 = open(mif_name2, 'w+')
-    pixel_Index=input_lines(mif_file2,pixel_Index,width)
+    pixel_Index=input_lines(mif_file2,pixel_Index,width,maxSize)
 
   if(pixel_Index<imageSize):
     mif_name3 = image_name.split('.')[0] + '3.mif'
     mif_file3 = open(mif_name3, 'w+')
-    pixel_Index=input_lines(mif_file3,pixel_Index,width)
+    pixel_Index=input_lines(mif_file3,pixel_Index,width,maxSize)
+
   if(pixel_Index<imageSize):
     mif_name4 = image_name.split('.')[0] + '4.mif'
     mif_file4 = open(mif_name4, 'w+')
-    pixel_Index=input_lines(mif_file4,pixel_Index,width)
+    pixel_Index=input_lines(mif_file4,pixel_Index,width,maxSize)
 
   if(pixel_Index<imageSize):
     mif_name5 = image_name.split('.')[0] + '5.mif'
     mif_file5 = open(mif_name5, 'w+')
-    pixel_Index=input_lines(mif_file5,pixel_Index,width)  
+    pixel_Index=input_lines(mif_file5,pixel_Index,width,maxSize)
+
+  if (pixel_Index < imageSize):
+      mif_name5 = image_name.split('.')[0] + '6.mif'
+      mif_file5 = open(mif_name5, 'w+')
+      pixel_Index = input_lines(mif_file5, pixel_Index, width,maxSize)
+
+  if (pixel_Index < imageSize):
+      mif_name5 = image_name.split('.')[0] + '7.mif'
+      mif_file5 = open(mif_name5, 'w+')
+      pixel_Index = input_lines(mif_file5, pixel_Index, width,maxSize)
+
+  if (pixel_Index < imageSize):
+      mif_name5 = image_name.split('.')[0] + '8.mif'
+      mif_file5 = open(mif_name5, 'w+')
+      pixel_Index = input_lines(mif_file5, pixel_Index, width,maxSize)
+
+  if (pixel_Index < imageSize):
+      mif_name5 = image_name.split('.')[0] + '9.mif'
+      mif_file5 = open(mif_name5, 'w+')
+      pixel_Index = input_lines(mif_file5, pixel_Index, width,maxSize)
+
+  if (pixel_Index < imageSize):
+      mif_name5 = image_name.split('.')[0] + '10.mif'
+      mif_file5 = open(mif_name5, 'w+')
+      pixel_Index = input_lines(mif_file5, pixel_Index, width,maxSize)
+
+  if (pixel_Index < imageSize):
+      mif_name5 = image_name.split('.')[0] + '11.mif'
+      mif_file5 = open(mif_name5, 'w+')
+      pixel_Index = input_lines(mif_file5, pixel_Index, width,maxSize)
+
+  if (pixel_Index < imageSize):
+      mif_name5 = image_name.split('.')[0] + '12.mif'
+      mif_file5 = open(mif_name5, 'w+')
+      pixel_Index = input_lines(mif_file5, pixel_Index, width,maxSize)
+
+  if (pixel_Index < imageSize):
+      mif_name5 = image_name.split('.')[0] + '13.mif'
+      mif_file5 = open(mif_name5, 'w+')
+      pixel_Index = input_lines(mif_file5, pixel_Index, width,maxSize)
+
+  if (pixel_Index < imageSize):
+      mif_name5 = image_name.split('.')[0] + '14.mif'
+      mif_file5 = open(mif_name5, 'w+')
+      pixel_Index = input_lines(mif_file5, pixel_Index, width,maxSize)
+
+  if (pixel_Index < imageSize):
+      mif_name5 = image_name.split('.')[0] + '15.mif'
+      mif_file5 = open(mif_name5, 'w+')
+      pixel_Index = input_lines(mif_file5, pixel_Index, width,maxSize)
+
+  if (pixel_Index < imageSize):
+      mif_name5 = image_name.split('.')[0] + '16.mif'
+      mif_file5 = open(mif_name5, 'w+')
+      pixel_Index = input_lines(mif_file5, pixel_Index, width,maxSize)
 
   IMAGE.close()
   print("done")
 
-def input_lines(file,line,width,maxSize=65536):
+def input_lines(file,line,width,maxSize=152100):
   global IMAGE,COLS,PIXELS
 
   #Get depth

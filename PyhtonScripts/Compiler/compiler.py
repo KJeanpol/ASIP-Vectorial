@@ -35,7 +35,7 @@ def read_file():
     amount2=0
     first=False
     first2=False
-    file = open("file.dat","r")
+    file = open("test1.dat","r")
     for line in file:
         linea=format_instruc(line)
         verify_instr(linea)

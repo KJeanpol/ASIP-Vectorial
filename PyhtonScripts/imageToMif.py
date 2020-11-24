@@ -195,4 +195,4 @@ def num_to_bin(num):
       raise Exception("Error 03: Numero no valido. Por favor revisar el reference sheet.")
   return num
 
-main("boat.jpg")
+main("1.jpg")

@@ -3,7 +3,7 @@ module ProyectMain #(parameter N=16)(input logic CLK, reset,
 
 	
 	logic [31:0] PC;
-	logic [27:0] Instr;
+	logic [31:0] Instr;
 	logic [15:0][N-1:0] ReadData;
 	logic  MemWrite;
 	logic [15:0][N-1:0] writeData;

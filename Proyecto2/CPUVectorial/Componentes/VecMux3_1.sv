@@ -7,9 +7,9 @@ module VecMux3_1 #(parameter N=16, parameter M=16)
 
 always_comb begin
 	case (sel)
-		8'b00 : out <= a;
-		8'b01 : out <= b;
-		8'b10 : out <= c;
+		2'b00 : out <= a;
+		2'b01 : out <= b;
+		2'b10 : out <= c;
 		default: out <= 0;
 	endcase
 end

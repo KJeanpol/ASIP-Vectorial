@@ -45,7 +45,7 @@ always_comb
     
 //Stalling
 always_comb begin
-  LDRstall = (((RA1D == WA3E) || (RA2D == WA3E)) && MemtoRegE);
+  LDRstall = ((((RA1D == WA3E) && RA1D!=4'b0) || ((RA2D == WA3E) && RA2D!=4'b0)) && MemtoRegE);
   StallF = LDRstall;
   StallD = LDRstall;
   FlushE = LDRstall;

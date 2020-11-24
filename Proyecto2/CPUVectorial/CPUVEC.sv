@@ -1,6 +1,6 @@
 module CPUVEC #(parameter N=16)(
 	input logic CLK, RST,
-	input logic [27:0] Instr,
+	input logic [31:0] Instr,
 	input  logic [15:0][N-1:0] ReadData,
 	output logic [31:0] PC,
 	output logic MemWriteM,
@@ -12,7 +12,7 @@ module CPUVEC #(parameter N=16)(
 	logic [2:0] ALUControl;
 	logic [3:0] RA1E, RA2E, WA3M, WA3W, RA1D, RA2D, WA3E;
 	logic [1:0] ALUSrc, ImmSrc, ForwardAE, ForwardBE;
-	logic [27:0] InstrD;
+	logic [31:0] InstrD;
 	
 	initial begin
 		MemtoRegE = 0;

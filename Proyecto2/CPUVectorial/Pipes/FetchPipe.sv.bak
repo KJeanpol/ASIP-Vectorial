@@ -1,4 +1,4 @@
-module FetchPipe #(parameter N=32)(
+module FetchPipe #(parameter N=28)(
 		input logic [N-1:0] dato,
 		input logic clk, reset,cargar,
 		output logic [N-1:0] Q);

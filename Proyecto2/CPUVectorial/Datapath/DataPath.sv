@@ -2,7 +2,7 @@ module DataPath #(parameter N=16)(
     input logic CLK, RST, CLR2, EN1, EN2, RegWriteD, MemtoRegD, MemWriteD,
     input logic [2:0] ALUControlD,
     input logic [1:0] ImmSrcD, ALUSrcD,
-    input logic [27:0] InstrF,
+    input logic [31:0] InstrF,
     input logic [15:0][N-1:0] RDM,
     input logic [1:0] ForwardAE,
     input logic [1:0] ForwardBE,
@@ -14,7 +14,7 @@ module DataPath #(parameter N=16)(
     output logic [3:0] WA3E, WA3M, WA3W,
     output logic RegWriteM, RegWriteW,
     output logic MemtoRegE,
-    output logic [27:0] InstrD,
+    output logic [31:0] InstrD,
     output logic [15:0][N-1:0] ALUResultM
 );
 

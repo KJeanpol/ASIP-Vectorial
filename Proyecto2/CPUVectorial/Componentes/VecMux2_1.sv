@@ -6,8 +6,8 @@ module VecMux2_1 #(parameter N=16, parameter M=16)
 
 	always @ (a or b or sel) begin
 		case (sel)
-			8'b0 : out <= a;
-			8'b1 : out <= b;
+			1'b0 : out <= a;
+			1'b1 : out <= b;
 		endcase
 	end
 endmodule

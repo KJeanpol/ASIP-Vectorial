@@ -1,5 +1,5 @@
 Analysis & Elaboration report for CPUVectorial
-Mon Nov 23 15:07:57 2020
+Tue Nov 24 18:23:19 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -72,32 +72,14 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
  64. Port Connectivity Checks: "ProyectMain:MAIN|DataMemory:DMEM|WRDataMemory:WRMEM"
  65. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|WriteBackPipe:wbpipe"
  66. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|ExecutePipe:executePipe"
- 67. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu16"
- 68. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu15"
- 69. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu14"
- 70. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu13"
- 71. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu12"
- 72. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu11"
- 73. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu10"
- 74. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu9"
- 75. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu8"
- 76. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu7"
- 77. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu6"
- 78. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu5"
- 79. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu4"
- 80. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu3"
- 81. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu2"
- 82. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu1"
- 83. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux2_1:muxSrcA"
- 84. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux3_1:muxWDE"
- 85. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux3_1:muxSrcA1"
- 86. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|DecodePipe:decodePipe"
- 87. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Decode:decode|n_bit_mux:ra1_mux"
- 88. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|FetchPipe:fetchPipe"
- 89. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath"
- 90. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec"
- 91. Analysis & Elaboration Messages
- 92. Analysis & Elaboration Suppressed Messages
+ 67. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux2_1:muxSrcA"
+ 68. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|DecodePipe:decodePipe"
+ 69. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Decode:decode|n_bit_mux:ra1_mux"
+ 70. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|FetchPipe:fetchPipe"
+ 71. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath"
+ 72. Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec"
+ 73. Analysis & Elaboration Messages
+ 74. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -124,7 +106,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Mon Nov 23 15:07:57 2020       ;
+; Analysis & Elaboration Status ; Successful - Tue Nov 24 18:23:19 2020       ;
 ; Quartus Prime Version         ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                 ; CPUVectorial                                ;
 ; Top-level Entity Name         ; TestBenchProyectMain                        ;
@@ -200,7 +182,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                     ;
 +----------------+-------+------------------------------------------------------------------------------------------+
-; N              ; 28    ; Signed Integer                                                                           ;
+; N              ; 32    ; Signed Integer                                                                           ;
 +----------------+-------+------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -337,7 +319,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                           ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                 ;
+; N              ; 16    ; Signed Integer                                                                                                 ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -347,7 +329,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                           ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                 ;
+; N              ; 16    ; Signed Integer                                                                                                 ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -357,7 +339,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                           ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                 ;
+; N              ; 16    ; Signed Integer                                                                                                 ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -367,7 +349,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                           ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                 ;
+; N              ; 16    ; Signed Integer                                                                                                 ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -377,7 +359,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                           ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                 ;
+; N              ; 16    ; Signed Integer                                                                                                 ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -387,7 +369,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                           ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                 ;
+; N              ; 16    ; Signed Integer                                                                                                 ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -397,7 +379,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                           ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                 ;
+; N              ; 16    ; Signed Integer                                                                                                 ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -407,7 +389,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                           ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                 ;
+; N              ; 16    ; Signed Integer                                                                                                 ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -417,7 +399,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                           ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                 ;
+; N              ; 16    ; Signed Integer                                                                                                 ;
 +----------------+-------+----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -427,7 +409,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                            ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                  ;
+; N              ; 16    ; Signed Integer                                                                                                  ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -437,7 +419,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                            ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                  ;
+; N              ; 16    ; Signed Integer                                                                                                  ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -447,7 +429,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                            ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                  ;
+; N              ; 16    ; Signed Integer                                                                                                  ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -457,7 +439,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                            ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                  ;
+; N              ; 16    ; Signed Integer                                                                                                  ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -467,7 +449,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                            ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                  ;
+; N              ; 16    ; Signed Integer                                                                                                  ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -477,7 +459,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                            ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                  ;
+; N              ; 16    ; Signed Integer                                                                                                  ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -487,7 +469,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                            ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
-; N              ; 8     ; Signed Integer                                                                                                  ;
+; N              ; 16    ; Signed Integer                                                                                                  ;
 +----------------+-------+-----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -787,7 +769,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------------------------------------------------+----------------------+--------------------+
 ; Option                                                                          ; Setting              ; Default Value      ;
 +---------------------------------------------------------------------------------+----------------------+--------------------+
-; Device                                                                          ; 5CSEMA4U23C6         ;                    ;
+; Device                                                                          ; 5CSEMA5F31C6         ;                    ;
 ; Top-level entity name                                                           ; TestBenchProyectMain ; CPUVectorial       ;
 ; Family name                                                                     ; Cyclone V            ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                  ; Off                ;
@@ -907,182 +889,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------+-------+----------+---------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu16"                                                                                        ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu15"                                                                                        ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu14"                                                                                        ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu13"                                                                                        ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu12"                                                                                        ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu11"                                                                                        ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu10"                                                                                        ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu9"                                                                                         ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu8"                                                                                         ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu7"                                                                                         ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu6"                                                                                         ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu5"                                                                                         ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu4"                                                                                         ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu3"                                                                                         ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu2"                                                                                         ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecALU:alu|ScalarALU:alu1"                                                                                         ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                           ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; A      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; B      ; Input  ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Result ; Output ; Warning  ; Output or bidir port (8 bits) is smaller than the port expression (16 bits) it drives.  The 8 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
 +----------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux2_1:muxSrcA" ;
 +------+-------+----------+--------------------------------------------------------------------------------------+
@@ -1090,24 +896,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+--------------------------------------------------------------------------------------+
 ; b    ; Input ; Info     ; Stuck at GND                                                                         ;
 +------+-------+----------+--------------------------------------------------------------------------------------+
-
-
-+---------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux3_1:muxWDE" ;
-+------------+-------+----------+-------------------------------------------------------------------------------+
-; Port       ; Type  ; Severity ; Details                                                                       ;
-+------------+-------+----------+-------------------------------------------------------------------------------+
-; sel[15..2] ; Input ; Info     ; Stuck at GND                                                                  ;
-+------------+-------+----------+-------------------------------------------------------------------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ProyectMain:MAIN|CPUVEC:cpuVec|DataPath:datapath|Execute:execute|VecMux3_1:muxSrcA1" ;
-+------------+-------+----------+---------------------------------------------------------------------------------+
-; Port       ; Type  ; Severity ; Details                                                                         ;
-+------------+-------+----------+---------------------------------------------------------------------------------+
-; sel[15..2] ; Input ; Info     ; Stuck at GND                                                                    ;
-+------------+-------+----------+---------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------+
@@ -1142,7 +930,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port           ; Type   ; Severity ; Details                                                                             ;
 +----------------+--------+----------+-------------------------------------------------------------------------------------+
-; InstrD[27..18] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; InstrD[31..18] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +----------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
@@ -1161,7 +949,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Mon Nov 23 15:04:12 2020
+    Info: Processing started: Tue Nov 24 18:19:16 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPUVectorial -c CPUVectorial --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -1277,8 +1065,6 @@ Info (12127): Elaborating entity "TestBenchProyectMain" for the top level hierar
 Warning (10755): Verilog HDL warning at TestBenchProyectMain.sv(19): assignments to clk create a combinational loop File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchProyectMain.sv Line: 19
 Info (12128): Elaborating entity "ProyectMain" for hierarchy "ProyectMain:MAIN" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchProyectMain.sv Line: 5
 Info (12128): Elaborating entity "InstrMem" for hierarchy "ProyectMain:MAIN|InstrMem:INSTRMEM" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/ProyectMain.sv Line: 13
-Warning (10850): Verilog HDL warning at InstrMem.sv(9): number of words (310) in memory file does not match the number of elements in the address range [0:100] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/InstrMem.sv Line: 9
-Warning (10230): Verilog HDL assignment warning at InstrMem.sv(11): truncated value with size 32 to match size of target (28) File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/InstrMem.sv Line: 11
 Warning (10030): Net "MEM.data_a" at InstrMem.sv(5) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/InstrMem.sv Line: 5
 Warning (10030): Net "MEM.waddr_a" at InstrMem.sv(5) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/InstrMem.sv Line: 5
 Warning (10030): Net "MEM.we_a" at InstrMem.sv(5) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/InstrMem.sv Line: 5
@@ -1314,69 +1100,21 @@ Info (12128): Elaborating entity "WriteBack" for hierarchy "ProyectMain:MAIN|CPU
 Info (12128): Elaborating entity "HazardUnit" for hierarchy "ProyectMain:MAIN|CPUVEC:cpuVec|HazardUnit:hazardunit" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/CPUVEC.sv Line: 25
 Info (12128): Elaborating entity "DataMemory" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/ProyectMain.sv Line: 17
 Info (12128): Elaborating entity "LECDataMemory1" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory1:MEM1" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 11
-Warning (10850): Verilog HDL warning at LECDataMemory1.sv(13): number of words (81) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory1.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory1.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory1.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory2" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory2:MEM2" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 12
-Warning (10850): Verilog HDL warning at LECDataMemory2.sv(13): number of words (18) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory2.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory2.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory2.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory2.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory2.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory3" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory3:MEM3" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 13
-Warning (10850): Verilog HDL warning at LECDataMemory3.sv(13): number of words (17) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory3.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory3.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory3.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory3.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory3.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory4" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory4:MEM4" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 14
-Warning (10850): Verilog HDL warning at LECDataMemory4.sv(13): number of words (0) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory4.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory4.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory4.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory4.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory4.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory5" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory5:MEM5" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 15
-Warning (10850): Verilog HDL warning at LECDataMemory5.sv(13): number of words (0) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory5.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory5.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory5.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory5.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory5.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory6" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory6:MEM6" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 16
-Warning (10850): Verilog HDL warning at LECDataMemory6.sv(13): number of words (0) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory6.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory6.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory6.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory6.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory6.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory7" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory7:MEM7" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 17
-Warning (10850): Verilog HDL warning at LECDataMemory7.sv(13): number of words (0) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory7.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory7.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory7.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory7.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory7.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory8" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory8:MEM8" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 18
-Warning (10850): Verilog HDL warning at LECDataMemory8.sv(13): number of words (0) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory8.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory8.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory8.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory8.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory8.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory9" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory9:MEM9" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 19
-Warning (10850): Verilog HDL warning at LECDataMemory9.sv(13): number of words (0) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory9.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory9.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory9.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory9.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory9.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory10" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory10:MEM10" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 20
-Warning (10850): Verilog HDL warning at LECDataMemory10.sv(13): number of words (0) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory10.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory10.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory10.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory10.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory10.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory11" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory11:MEM11" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 21
-Warning (10850): Verilog HDL warning at LECDataMemory11.sv(13): number of words (0) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory11.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory11.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory11.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory11.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory11.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory12" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory12:MEM12" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 22
-Warning (10850): Verilog HDL warning at LECDataMemory12.sv(13): number of words (0) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory12.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory12.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory12.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory12.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory12.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory13" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory13:MEM13" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 23
-Warning (10850): Verilog HDL warning at LECDataMemory13.sv(13): number of words (0) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory13.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory13.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory13.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory13.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory13.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory14" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory14:MEM14" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 24
-Warning (10850): Verilog HDL warning at LECDataMemory14.sv(13): number of words (0) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory14.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory14.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory14.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory14.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory14.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory15" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory15:MEM15" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 25
-Warning (10850): Verilog HDL warning at LECDataMemory15.sv(13): number of words (0) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory15.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory15.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory15.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory15.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory15.sv Line: 7
 Info (12128): Elaborating entity "LECDataMemory16" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|LECDataMemory16:MEM16" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 26
-Warning (10850): Verilog HDL warning at LECDataMemory16.sv(13): number of words (0) in memory file does not match the number of elements in the address range [0:9215] File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory16.sv Line: 13
-Warning (10855): Verilog HDL warning at LECDataMemory16.sv(13): initial value for variable memory1 should be constant File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory16.sv Line: 13
-Warning (10030): Net "memory1" at LECDataMemory16.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/LECDataMemory16.sv Line: 7
 Info (12128): Elaborating entity "WRDataMemory" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|WRDataMemory:WRMEM" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 27
 Warning (10036): Verilog HDL or VHDL warning at WRDataMemory.sv(8): object "memory" assigned a value but never read File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/WRDataMemory.sv Line: 8
 Warning (10175): Verilog HDL warning at WRDataMemory.sv(52): ignoring unsupported system task File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/WRDataMemory.sv Line: 52
@@ -1385,13 +1123,12 @@ Info (12128): Elaborating entity "calcdir" for hierarchy "ProyectMain:MAIN|DataM
 Info (12128): Elaborating entity "VecMux16_1" for hierarchy "ProyectMain:MAIN|DataMemory:DMEM|VecMux16_1:MUX" File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/Memoria/DataMemory.sv Line: 28
 Warning (12011): Net is missing source, defaulting to GND
     Warning (12110): Net "clk" is missing source, defaulting to GND File: C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/TestBenchs/TestBenchProyectMain.sv Line: 2
-Warning (12241): 16 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file C:/Users/mary1/Documents/II_SEMESTRE_2020/Arqui2/Proyecto2/CPUVectorial/output_files/CPUVectorial.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 62 warnings
-    Info: Peak virtual memory: 9527 megabytes
-    Info: Processing ended: Mon Nov 23 15:07:57 2020
-    Info: Elapsed time: 00:03:45
-    Info: Total CPU time (on all processors): 00:04:14
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 11 warnings
+    Info: Peak virtual memory: 6377 megabytes
+    Info: Processing ended: Tue Nov 24 18:23:19 2020
+    Info: Elapsed time: 00:04:03
+    Info: Total CPU time (on all processors): 00:04:31
 
 
 +--------------------------------------------+

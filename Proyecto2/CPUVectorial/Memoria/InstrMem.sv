@@ -2,7 +2,7 @@ module InstrMem(
 			input logic [31:0] PC,
     		output logic [31:0] Instr );
 	
-	logic [31:0] MEM[8063:0];
+	logic [31:0] MEM[8064:0];
 
 
 initial 

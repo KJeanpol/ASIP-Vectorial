@@ -10,8 +10,8 @@ module TestBenchProyectMain();
 	#10;
 	reset=0;
 	s3=0;
-	s2=0;
-	s1=0;
+	s2=1;
+	s1=1;
 	s0=0;
 	end
 	

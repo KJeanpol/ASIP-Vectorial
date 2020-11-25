@@ -23,7 +23,7 @@ def convertirImagen():
                 flag=flag+1
                 flag1=0
             f = open("imagen"+ str(flag)+".dat", "a")
-            f.write(str(hex(data[i][j]))+"\n")  #8 
+            f.write(str(format(hex(data[i][j])),'x')+"\n")  #8 
             f.close()
             flag1=flag1+1
 

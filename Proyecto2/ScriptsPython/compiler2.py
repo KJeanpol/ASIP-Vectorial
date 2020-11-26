@@ -17,8 +17,8 @@ CURRENT_TYPE=""
 CURRENT_CODE=""
 REPEAT_LINES=[]
 REPEAT_LINES2=[]
-REPEAT_FLAG=False
-REPEAT_FLAG2=False
+LOOP_FLAG=False
+LOOP_FLAG2=False
 
 def write_file():
     file = open("memfile.dat","w")
@@ -28,7 +28,7 @@ def write_file():
     file.close()
 
 def read_file():
-    global REPEAT_FLAG,REPEAT_FLAG2,OUTPUT,REPEAT_LINES,REPEAT_LINES2
+    global LOOP_FLAG,LOOP_FLAG2,OUTPUT,REPEAT_LINES,REPEAT_LINES2
     repeat_cont=0
     repeat_cont2=0
     amount=0
@@ -40,36 +40,36 @@ def read_file():
         linea=format_instruc(line) #se le da formato a la linea leida
         verify_instr(linea) #se verifica que la instruccion sea válida
         if(linea[0]=='loop'):
-            if(REPEAT_FLAG2):
+            if(LOOP_FLAG2):
                 repeat_cont2=int(linea[1])
                 amount2=int(linea[2])
                 first2=True
-            elif(REPEAT_FLAG):
+            elif(LOOP_FLAG):
                 repeat_cont=int(linea[1])
                 amount=int(linea[2])
                 first=True
         else:
             compile_reg(linea) #se compila/codifica la linea de instruccion
         if len(OUTPUT[-1]) != 32 and len(OUTPUT[-1]) != 28:
-            raise Exception("Error 04: La instruccion no tiene formato adecuado. Por favor revisar el reference sheet.")
-        if(REPEAT_FLAG2 and amount2>0 and not first2):
+            raise Exception("Error 04: Formato inválido.")
+        if(LOOP_FLAG2 and amount2>0 and not first2):
             REPEAT_LINES2.append(OUTPUT[-1])
             amount2-=1
-        elif(REPEAT_FLAG2 and amount2>0):
+        elif(LOOP_FLAG2 and amount2 > 0):
             first2=False
-        elif(REPEAT_FLAG and amount>0 and not first):
+        elif(LOOP_FLAG and amount > 0 and not first):
             REPEAT_LINES.append(OUTPUT[-1])
             amount-=1
-        elif(REPEAT_FLAG and amount>0):
+        elif(LOOP_FLAG and amount > 0):
             first=False
 
-        if(REPEAT_FLAG2 and amount2==0):
+        if(LOOP_FLAG2 and amount2==0):
             for i in range(repeat_cont2):
                 for j in range(0,len(REPEAT_LINES2)):
                     REPEAT_LINES.append(REPEAT_LINES2[j])
             REPEAT_LINES2=[]    
-            REPEAT_FLAG2=False
-        elif(REPEAT_FLAG and amount==0):
+            LOOP_FLAG2=False
+        elif(LOOP_FLAG and amount == 0):
             for i in range(repeat_cont):
                 for j in range(0,len(REPEAT_LINES)):
                     OUTPUT.append(REPEAT_LINES[j])
@@ -79,7 +79,7 @@ def read_file():
             print(len(OUTPUT))
             print(len(REPEAT_LINES))
             REPEAT_LINES=[]
-            REPEAT_FLAG=False
+            LOOP_FLAG=False
     file.close()
     write_file()
 #--------------- Validation -------------------#
@@ -104,19 +104,19 @@ def format_instruc(line):
 
 #Input: la instruccion
 def verify_instr(linea):
-    global REPEAT_FLAG,REPEAT_FLAG2
+    global LOOP_FLAG,LOOP_FLAG2
     global CURRENT_TYPE, CURRENT_CODE
     instr=linea[0]
     instr = instr.lower()
     if instr in INSTRUCTIONS:
-        if(instr =='loop' and REPEAT_FLAG):
-            REPEAT_FLAG2=True
+        if(instr =='loop' and LOOP_FLAG):
+            LOOP_FLAG2=True
         elif(instr =='loop' ):
-            REPEAT_FLAG=True
+            LOOP_FLAG=True
         CURRENT_TYPE = INSTRUCTIONS.get(instr).get("type")
         CURRENT_CODE = INSTRUCTIONS.get(instr).get("code")
     else:
-        raise Exception("Error 01: Instruccion no encontrada. Por favor revisar el reference sheet.")
+        raise Exception("Error 01: Instruccion no encontrada. Favor revisar lista de instrucciones.")
 
 
 #--------------- Compiling -------------------#
@@ -163,7 +163,7 @@ def num_to_bin(num):
     elif '0x' in num:
         num="{0:b}".format(abs(int(num,16)))
     else:
-        raise Exception("Error 03: Numero no valido. Por favor revisar el reference sheet.")
+        raise Exception("Error 03: Numero no válido.")
     return num
 
 def set_imm(registers):
@@ -177,7 +177,7 @@ def set_imm(registers):
 def get_reg(register):
      num = int(register[1:])
      if num<0 or num>16:
-        raise Exception("Error 06: Este registro no existe. Por favor revisar el reference sheet.")
+        raise Exception("Error 06: Este registro no existe. Los registros van del 0-16")
      else:
         reg = add_padding(num,4)
      return reg

@@ -73,7 +73,6 @@ def read_file():
             for i in range(repeat_cont):
                 for j in range(0,len(REPEAT_LINES)):
                     OUTPUT.append(REPEAT_LINES[j])
-                    #print(REPEAT_LINES[j])
             a=REPEAT_LINES[0]
             b=REPEAT_LINES[-1]
             print(len(OUTPUT))
@@ -82,7 +81,7 @@ def read_file():
             LOOP_FLAG=False
     file.close()
     write_file()
-#--------------- Validation -------------------#
+#*********************** Validacion ************************#
 def format_instruc(line):
     line=line.rstrip("\n")
     line=line.strip()
@@ -102,7 +101,7 @@ def format_instruc(line):
                 break
     return line
 
-#Input: la instruccion
+#Input: una instruccion
 def verify_instr(linea):
     global LOOP_FLAG,LOOP_FLAG2
     global CURRENT_TYPE, CURRENT_CODE
@@ -116,11 +115,10 @@ def verify_instr(linea):
         CURRENT_TYPE = INSTRUCTIONS.get(instr).get("type")
         CURRENT_CODE = INSTRUCTIONS.get(instr).get("code")
     else:
-        raise Exception("Error 01: Instruccion no encontrada. Favor revisar lista de instrucciones.")
+        raise Exception("Error 01: Instrucción no encontrada. Favor revisar lista de instrucciones.")
 
 
-#--------------- Compiling -------------------#
-
+#************** Compiling **********************#
 def compile_reg(lista):
     global OUTPUT
     opcode=[CURRENT_CODE]
@@ -148,7 +146,8 @@ def compile_reg(lista):
         temp+=code
     #print(temp)
     OUTPUT.append(temp)
-# --------------------- Utilities --------------------------#
+
+# ********************* Extras **********************#
 def num_to_bin(num):
     if num[0]=='#':
         if '0x' in num:
@@ -163,14 +162,12 @@ def num_to_bin(num):
     elif '0x' in num:
         num="{0:b}".format(abs(int(num,16)))
     else:
-        raise Exception("Error 03: Numero no válido.")
+        raise Exception("Error 03: Número inválido.")
     return num
 
 def set_imm(registers):
     if CURRENT_TYPE ==1:
         registers[0]= registers[0][:6]+'1'+registers[6:]
-    '''elif CURRENT_TYPE ==3 or CURRENT_TYPE ==4:
-        registers[0]=registers[0][:3]+'1'''
     return registers
 
 
@@ -214,7 +211,6 @@ def add_padding(num,pad):
         offset = "{:04b}".format(num)
         offset = "{:.4}".format(offset)
         return offset
-    print(offset)
 
 
 
